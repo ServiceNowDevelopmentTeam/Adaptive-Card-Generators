@@ -1,0 +1,2332 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>add_field_to_adaptive_card_field_array</internal_name>
+        <label_cache>[{"name":"{{action.field_array}}","label":"action➛Field Array","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.field_array.Field}}","label":"action➛Field Array➛Field","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{}},{"name":"{{action.field}}","label":"action➛Field","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{}},{"name":"{{action.field.Is_Mandatory}}","label":"action➛Field➛Is Mandatory","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.field_array.Field.Is_Mandatory}}","label":"action➛Field Array➛Field➛Is Mandatory","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray}}","label":"step➛Script step➛fieldArray","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray.Field}}","label":"step➛Script step➛fieldArray➛Field","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray.Field.Is_Mandatory}}","label":"step➛Script step➛fieldArray➛Field➛Is Mandatory","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>fe1625121b9e91508c5143f3cc4bcbd9</master_snapshot>
+        <name>Add field to Adaptive Card field array</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:18:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71e3611a1b5e91508c5143f3cc4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add field to Adaptive Card field array</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_71e3611a1b5e91508c5143f3cc4bcb1e</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:26:43</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=71e3611a1b5e91508c5143f3cc4bcb1e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=71e3611a1b5e91508c5143f3cc4bcb1e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>71e3611a1b5e91508c5143f3cc4bcb1e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>2ea421da1b5e91508c5143f3cc4bcbe7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:29:30</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FD22a421da7a5e9150a5caf2b2f156b1d8":{},"FlowDesigner:FD22a421da7a5e9150a5caf2b2f156b1d8.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"ed36b043-48dc-4d28-b766-86a7b19fc0ee\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD22a421da7a5e9150a5caf2b2f156b1d8\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">a6a421da1b5e91508c5143f3cc4bcbda</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>71e3611a1b5e91508c5143f3cc4bcb1e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:29:30</sys_created_on>
+        <sys_id>3d7629521b9e91508c5143f3cc4bcbbc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:30:25</sys_updated_on>
+        <value/>
+        <variable display_value="Field Array">f57629521b9e91508c5143f3cc4bcba3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>71e3611a1b5e91508c5143f3cc4bcb1e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>6aa421da1b5e91508c5143f3cc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:21:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">e6a421da1b5e91508c5143f3cc4bcbdf</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=71e3611a1b5e91508c5143f3cc4bcb1e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fieldarray</field>
+        <id>71e3611a1b5e91508c5143f3cc4bcb1e</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:29:30</sys_created_on>
+        <sys_id>357629521b9e91508c5143f3cc4bcbbc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:30:25</sys_updated_on>
+        <table>var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e</table>
+        <value>{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>71e3611a1b5e91508c5143f3cc4bcb1e</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>e6a421da1b5e91508c5143f3cc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:21:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>71e3611a1b5e91508c5143f3cc4bcb1e</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>26a421da1b5e91508c5143f3cc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:21:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=71e3611a1b5e91508c5143f3cc4bcb1e^sys_idNOT INeaa421da1b5e91508c5143f3cc4bcb56"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Add field to Adaptive Card field array">71e3611a1b5e91508c5143f3cc4bcb1e</action>
+        <cid>98c538df-4b5c-4a9d-b738-26e63cc40a1c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>eaa421da1b5e91508c5143f3cc4bcb56</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 21:27:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eaa421da1b5e91508c5143f3cc4bcb56"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>eaa421da1b5e91508c5143f3cc4bcb56</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>66a421da1b5e91508c5143f3cc4bcbbb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 21:27:54</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var fArray = inputs.fieldArray;
+  if(gs.nil(fArray[0].Field_Name_No_Spaces_)){
+    fArray[0]=inputs.field;
+  }
+  else{
+    fArray.push(inputs.field);
+  }
+  outputs.fieldarray = fArray;
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>eaa421da1b5e91508c5143f3cc4bcb56</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>a2a421da1b5e91508c5143f3cc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:21:38</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eaa421da1b5e91508c5143f3cc4bcb56"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field</field>
+        <id>eaa421da1b5e91508c5143f3cc4bcb56</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>22a421da1b5e91508c5143f3cc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:21:38</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_eaa421da1b5e91508c5143f3cc4bcb56</table>
+        <value>{{action.field}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fieldArray</field>
+        <id>eaa421da1b5e91508c5143f3cc4bcb56</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>e2a421da1b5e91508c5143f3cc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:21:38</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_eaa421da1b5e91508c5143f3cc4bcb56</table>
+        <value>{{action.field_array}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_eaa421da1b5e91508c5143f3cc4bcb56^id=eaa421da1b5e91508c5143f3cc4bcb56"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=eaa421da1b5e91508c5143f3cc4bcb56"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=eaa421da1b5e91508c5143f3cc4bcb56^sys_idNOT IN26a421da1b5e91508c5143f3cc4bcb6f,6aa421da1b5e91508c5143f3cc4bcb6b"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>field</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">eaa421da1b5e91508c5143f3cc4bcb56</model>
+        <model_id>eaa421da1b5e91508c5143f3cc4bcb56</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_eaa421da1b5e91508c5143f3cc4bcb56</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>26a421da1b5e91508c5143f3cc4bcb6f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:22:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fieldArray</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">eaa421da1b5e91508c5143f3cc4bcb56</model>
+        <model_id>eaa421da1b5e91508c5143f3cc4bcb56</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_eaa421da1b5e91508c5143f3cc4bcb56</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>6aa421da1b5e91508c5143f3cc4bcb6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:22:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=eaa421da1b5e91508c5143f3cc4bcb56^sys_idNOT INaaa421da1b5e91508c5143f3cc4bcbb2"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDaea421da775e9150ba9d8b9bfa01ff71</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>397371211bd6859062e50ed2cd4bcb78</scope_name>
+        <serialized_content>{"FlowDesigner:FDaea421da775e9150ba9d8b9bfa01ff71":{"$COCollectionField":[{"Field":{"Is_Choice_Set_Expanded":"Boolean","Is_Choice_Set_Expanded.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Choice Set Expanded\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"Is_Text_Input_Multiline":"Boolean","Is_Text_Input_Multiline.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Text Input Multiline\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"Field_Name_No_Spaces_":"String","Field_Name_No_Spaces_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"Is_Mandatory":"Boolean","Is_Mandatory.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is Mandatory\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"cacc04fa-14a9-4f4a-b194-04f7afd094d6\"}"},"Field_Type":"String","Field_Type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"TextBlock\",\"label\":\"Field Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Text Block\":\"{\\\"label\\\":\\\"Text Block\\\",\\\"value\\\":\\\"TextBlock\\\",\\\"order\\\":1}\",\"Choice Set\":\"{\\\"label\\\":\\\"Choice Set\\\",\\\"value\\\":\\\"Input.ChoiceSet\\\",\\\"order\\\":3}\",\"Text Input\":\"{\\\"label\\\":\\\"Text Input\\\",\\\"value\\\":\\\"Input.Text\\\",\\\"order\\\":4}\",\"Facts(Text List)\":\"{\\\"label\\\":\\\"Facts(Text List)\\\",\\\"value\\\":\\\"FactSet\\\",\\\"order\\\":2}\"}}"},"Text_Block_Text":"String","Text_Block_Text.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Text Block Text\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"Choice_Set_Choices":[{"$509_Choice_Set_Choices":{"Value":"String","Value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"Title":"String","Title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"Choice_Set_Choices.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Choice Set Choices Or Facts\",\"mandatory\":\"false\",\"child_name\":\"Choice\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Choice\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"13a855a0-a358-45cf-88b1-757f8e83bbff\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"fieldArray\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"1d50f17f-3441-4c2e-bba2-fa76642f39a0\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDaea421da775e9150ba9d8b9bfa01ff71\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f04b1c55-132e-4e98-aa86-4a7a3f20d1b6\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDaea421da775e9150ba9d8b9bfa01ff71.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"fieldArray\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"1d50f17f-3441-4c2e-bba2-fa76642f39a0\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDaea421da775e9150ba9d8b9bfa01ff71\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f04b1c55-132e-4e98-aa86-4a7a3f20d1b6\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62a421da1b5e91508c5143f3cc4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDaea421da775e9150ba9d8b9bfa01ff71</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_complex_object_62a421da1b5e91508c5143f3cc4bcb72</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Field,child_name=Field,child_type=object,child_type_label=Object,child_uiUniqueId=f04b1c55-132e-4e98-aa86-4a7a3f20d1b6,co_type_name=FDaea421da775e9150ba9d8b9bfa01ff71,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1d50f17f-3441-4c2e-bba2-fa76642f39a0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fieldarray</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>fieldArray</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">eaa421da1b5e91508c5143f3cc4bcb56</model>
+        <model_id>eaa421da1b5e91508c5143f3cc4bcb56</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_eaa421da1b5e91508c5143f3cc4bcb56</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>aaa421da1b5e91508c5143f3cc4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:21:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eaa421da1b5e91508c5143f3cc4bcb56"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_eaa421da1b5e91508c5143f3cc4bcb56^sys_idNOT IN2aa421da1b5e91508c5143f3cc4bcbb6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>fieldarray</element>
+        <help/>
+        <hint/>
+        <label>fieldArray</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_eaa421da1b5e91508c5143f3cc4bcb56</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>2aa421da1b5e91508c5143f3cc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fieldArray</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_eaa421da1b5e91508c5143f3cc4bcb56_fieldarray_en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:21:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=71e3611a1b5e91508c5143f3cc4bcb1e^sys_idNOT IN6f14215a1b5e91508c5143f3cc4bcbbe,e714215a1b5e91508c5143f3cc4bcbc4"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD2714ad1acf5e915041113c3e29df08a3</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>397371211bd6859062e50ed2cd4bcb78</scope_name>
+        <serialized_content>{"FlowDesigner:FD2714ad1acf5e915041113c3e29df08a3":{"$COCollectionField":[{"Field":{"Is_Choice_Set_Expanded":"Boolean","Is_Choice_Set_Expanded.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Choice Set Expanded\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"Is_Text_Input_Multiline":"Boolean","Is_Text_Input_Multiline.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Text Input Multiline\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"Field_Name_No_Spaces_":"String","Field_Name_No_Spaces_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"Is_Mandatory":"Boolean","Is_Mandatory.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is Mandatory\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"Field_Type":"String","Field_Type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"TextBlock\",\"label\":\"Field Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Text Block\":\"{\\\"label\\\":\\\"Text Block\\\",\\\"value\\\":\\\"TextBlock\\\",\\\"order\\\":1}\",\"Choice Set\":\"{\\\"label\\\":\\\"Choice Set\\\",\\\"value\\\":\\\"Input.ChoiceSet\\\",\\\"order\\\":3}\",\"Text Input\":\"{\\\"label\\\":\\\"Text Input\\\",\\\"value\\\":\\\"Input.Text\\\",\\\"order\\\":4}\",\"Facts(Text List)\":\"{\\\"label\\\":\\\"Facts(Text List)\\\",\\\"value\\\":\\\"FactSet\\\",\\\"order\\\":2}\"}}"},"Text_Block_Text":"String","Text_Block_Text.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Text Block Text\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"Choice_Set_Choices":[{"$505_Choice_Set_Choices":{"Value":"String","Value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"Title":"String","Title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"Choice_Set_Choices.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Choice Set Choices Or Facts\",\"mandatory\":\"false\",\"child_name\":\"Choice\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Choice\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"13a855a0-a358-45cf-88b1-757f8e83bbff\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Field Array\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"025abf55-5d71-40f2-9dbf-6f909b2bf8e5\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD2714ad1acf5e915041113c3e29df08a3\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d02089d8-219d-4cbf-93be-5d2d1af81b97\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD2714ad1acf5e915041113c3e29df08a3.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Field Array\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"025abf55-5d71-40f2-9dbf-6f909b2bf8e5\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD2714ad1acf5e915041113c3e29df08a3\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d02089d8-219d-4cbf-93be-5d2d1af81b97\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:19:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e714ad1a1b5e91508c5143f3cc4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD2714ad1acf5e915041113c3e29df08a3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_complex_object_e714ad1a1b5e91508c5143f3cc4bcba3</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Field,child_name=Field,child_type=object,child_type_label=Object,child_uiUniqueId=d02089d8-219d-4cbf-93be-5d2d1af81b97,co_type_name=FD2714ad1acf5e915041113c3e29df08a3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=025abf55-5d71-40f2-9dbf-6f909b2bf8e5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>field_array</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Field Array</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Add field to Adaptive Card field array">71e3611a1b5e91508c5143f3cc4bcb1e</model>
+        <model_id>71e3611a1b5e91508c5143f3cc4bcb1e</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_71e3611a1b5e91508c5143f3cc4bcb1e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:19:14</sys_created_on>
+        <sys_id>6f14215a1b5e91508c5143f3cc4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:19:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6f14215a1b5e91508c5143f3cc4bcbbe"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD2b14215a785e915050be87e85c20e8bc</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>397371211bd6859062e50ed2cd4bcb78</scope_name>
+        <serialized_content>{"FlowDesigner:FD2b14215a785e915050be87e85c20e8bc":{"Is_Choice_Set_Expanded":"Boolean","Is_Choice_Set_Expanded.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Choice Set Expanded\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"Is_Text_Input_Multiline":"Boolean","Is_Text_Input_Multiline.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Text Input Multiline\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"Field_Name_No_Spaces_":"String","Field_Name_No_Spaces_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"Is_Mandatory":"Boolean","Is_Mandatory.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is Mandatory\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"Field_Type":"String","Field_Type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"TextBlock\",\"label\":\"Field Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Text Block\":\"{\\\"label\\\":\\\"Text Block\\\",\\\"value\\\":\\\"TextBlock\\\",\\\"order\\\":1}\",\"Choice Set\":\"{\\\"label\\\":\\\"Choice Set\\\",\\\"value\\\":\\\"Input.ChoiceSet\\\",\\\"order\\\":3}\",\"Text Input\":\"{\\\"label\\\":\\\"Text Input\\\",\\\"value\\\":\\\"Input.Text\\\",\\\"order\\\":4}\",\"Facts(Text List)\":\"{\\\"label\\\":\\\"Facts(Text List)\\\",\\\"value\\\":\\\"FactSet\\\",\\\"order\\\":2}\"}}"},"Text_Block_Text":"String","Text_Block_Text.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Text Block Text\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"Choice_Set_Choices":[{"$508_Choice_Set_Choices":{"Value":"String","Value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"Title":"String","Title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"Choice_Set_Choices.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Choice Set Choices Or Facts\",\"mandatory\":\"false\",\"child_name\":\"Choice\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Choice\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"13a855a0-a358-45cf-88b1-757f8e83bbff\"}"}},"FlowDesigner:FD2b14215a785e915050be87e85c20e8bc.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Field\",\"mandatory\":\"false\",\"uiUniqueId\":\"3b873de1-9072-4d74-aab4-cbc6ddbbaf9f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD2b14215a785e915050be87e85c20e8bc\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:19:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eb14215a1b5e91508c5143f3cc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD2b14215a785e915050be87e85c20e8bc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_complex_object_eb14215a1b5e91508c5143f3cc4bcbbc</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD2b14215a785e915050be87e85c20e8bc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3b873de1-9072-4d74-aab4-cbc6ddbbaf9f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>field</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Field</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Add field to Adaptive Card field array">71e3611a1b5e91508c5143f3cc4bcb1e</model>
+        <model_id>71e3611a1b5e91508c5143f3cc4bcb1e</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_71e3611a1b5e91508c5143f3cc4bcb1e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:19:14</sys_created_on>
+        <sys_id>e714215a1b5e91508c5143f3cc4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:19:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e714215a1b5e91508c5143f3cc4bcbc4"/>
+    <sys_hub_action_output action="delete_multiple" query="model=71e3611a1b5e91508c5143f3cc4bcb1e^sys_idNOT INa6a421da1b5e91508c5143f3cc4bcbda,e6a421da1b5e91508c5143f3cc4bcbdf,f57629521b9e91508c5143f3cc4bcba3"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD22a421da7a5e9150a5caf2b2f156b1d8</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>397371211bd6859062e50ed2cd4bcb78</scope_name>
+        <serialized_content>{"FlowDesigner:FD22a421da7a5e9150a5caf2b2f156b1d8":{},"FlowDesigner:FD22a421da7a5e9150a5caf2b2f156b1d8.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"ed36b043-48dc-4d28-b766-86a7b19fc0ee\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD22a421da7a5e9150a5caf2b2f156b1d8\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e2a421da1b5e91508c5143f3cc4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD22a421da7a5e9150a5caf2b2f156b1d8</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_complex_object_e2a421da1b5e91508c5143f3cc4bcbd8</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD22a421da7a5e9150a5caf2b2f156b1d8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=ed36b043-48dc-4d28-b766-86a7b19fc0ee</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Add field to Adaptive Card field array">71e3611a1b5e91508c5143f3cc4bcb1e</model>
+        <model_id>71e3611a1b5e91508c5143f3cc4bcb1e</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>a6a421da1b5e91508c5143f3cc4bcbda</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:29:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a6a421da1b5e91508c5143f3cc4bcbda"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a6a421da1b5e91508c5143f3cc4bcbda"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=868574c4-cee2-427f-808b-44f9d9f02a47,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Add field to Adaptive Card field array">71e3611a1b5e91508c5143f3cc4bcb1e</model>
+        <model_id>71e3611a1b5e91508c5143f3cc4bcb1e</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>e6a421da1b5e91508c5143f3cc4bcbdf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:29:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e6a421da1b5e91508c5143f3cc4bcbdf"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e6a421da1b5e91508c5143f3cc4bcbdf"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDb9762952cb9e9150da798314cebc749e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>397371211bd6859062e50ed2cd4bcb78</scope_name>
+        <serialized_content>{"FlowDesigner:FDb9762952cb9e9150da798314cebc749e":{"$COCollectionField":[{"Field":{"Is_Choice_Set_Expanded":"Boolean","Is_Choice_Set_Expanded.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Choice Set Expanded\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"963d5f61-d662-4acb-8054-d529ce6309ef\"}"},"Is_Text_Input_Multiline":"Boolean","Is_Text_Input_Multiline.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Text Input Multiline\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"c68e4cbd-54de-406c-ae9f-24f49bbbb6fb\"}"},"Field_Name_No_Spaces_":"String","Field_Name_No_Spaces_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"23522e0c-522e-4941-80fd-aaa7a3a8ad63\"}"},"Is_Mandatory":"Boolean","Is_Mandatory.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is Mandatory\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"cacc04fa-14a9-4f4a-b194-04f7afd094d6\"}"},"Field_Type":"String","Field_Type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"TextBlock\",\"label\":\"Field Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\",\"uiUniqueId\":\"09309505-1830-4c89-b39d-3bb3b489431b\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Text Block\":\"{\\\"label\\\":\\\"Text Block\\\",\\\"value\\\":\\\"TextBlock\\\",\\\"order\\\":1}\",\"Choice Set\":\"{\\\"label\\\":\\\"Choice Set\\\",\\\"value\\\":\\\"Input.ChoiceSet\\\",\\\"order\\\":3}\",\"Text Input\":\"{\\\"label\\\":\\\"Text Input\\\",\\\"value\\\":\\\"Input.Text\\\",\\\"order\\\":4}\",\"Facts(Text List)\":\"{\\\"label\\\":\\\"Facts(Text List)\\\",\\\"value\\\":\\\"FactSet\\\",\\\"order\\\":2}\"}}"},"Text_Block_Text":"String","Text_Block_Text.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Text Block Text\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"14a96167-20cb-40d4-83d8-367b0fafc5c1\"}"},"Choice_Set_Choices":[{"$512_Choice_Set_Choices":{"Value":"String","Value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"3b3d2baf-02fa-4aaf-946b-ee397df277ff\"}"},"Title":"String","Title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"7ce12589-6d49-4afe-a23c-bff83fbf33af\"}"}}}],"Choice_Set_Choices.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Choice Set Choices Or Facts\",\"mandatory\":\"false\",\"child_name\":\"Choice\",\"uiUniqueId\":\"0bca7d03-562f-4cb5-aa45-e4aa91b01ab9\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Choice\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"13a855a0-a358-45cf-88b1-757f8e83bbff\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"98c538df-4b5c-4a9d-b738-26e63cc40a1c\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Field Array\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"bd21ba8b-c064-469d-9615-1ea2e87c1815\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDb9762952cb9e9150da798314cebc749e\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"1d50f17f-3441-4c2e-bba2-fa76642f39a0\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f04b1c55-132e-4e98-aa86-4a7a3f20d1b6\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDb9762952cb9e9150da798314cebc749e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"98c538df-4b5c-4a9d-b738-26e63cc40a1c\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Field Array\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"bd21ba8b-c064-469d-9615-1ea2e87c1815\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDb9762952cb9e9150da798314cebc749e\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"1d50f17f-3441-4c2e-bba2-fa76642f39a0\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f04b1c55-132e-4e98-aa86-4a7a3f20d1b6\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:29:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d7629521b9e91508c5143f3cc4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDb9762952cb9e9150da798314cebc749e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_complex_object_7d7629521b9e91508c5143f3cc4bcb9e</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Field,child_name=Field,child_type=object,child_type_label=Object,child_uiUniqueId=f04b1c55-132e-4e98-aa86-4a7a3f20d1b6,co_type_name=FDb9762952cb9e9150da798314cebc749e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=98c538df-4b5c-4a9d-b738-26e63cc40a1c,sourceType=step,sourceUiUniqueId=1d50f17f-3441-4c2e-bba2-fa76642f39a0,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=bd21ba8b-c064-469d-9615-1ea2e87c1815</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fieldarray</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Field Array</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Add field to Adaptive Card field array">71e3611a1b5e91508c5143f3cc4bcb1e</model>
+        <model_id>71e3611a1b5e91508c5143f3cc4bcb1e</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:29:30</sys_created_on>
+        <sys_id>f57629521b9e91508c5143f3cc4bcba3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:30:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f57629521b9e91508c5143f3cc4bcba3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f57629521b9e91508c5143f3cc4bcba3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=71e3611a1b5e91508c5143f3cc4bcb1e"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=71e3611a1b5e91508c5143f3cc4bcb1e^sys_idNOT IN2714215a1b5e91508c5143f3cc4bcbd8"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Add field to Adaptive Card field array">71e3611a1b5e91508c5143f3cc4bcb1e</action_type_id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:19:14</sys_created_on>
+        <sys_id>2714215a1b5e91508c5143f3cc4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:19:14</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2714215a1b5e91508c5143f3cc4bcbd8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_71e3611a1b5e91508c5143f3cc4bcb1e^sys_idNOT IN2314215a1b5e91508c5143f3cc4bcbd4,2b14215a1b5e91508c5143f3cc4bcbc3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>field</element>
+        <help/>
+        <hint/>
+        <label>Field</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_71e3611a1b5e91508c5143f3cc4bcb1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:19:14</sys_created_on>
+        <sys_id>2314215a1b5e91508c5143f3cc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_71e3611a1b5e91508c5143f3cc4bcb1e_field_en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:19:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>field_array</element>
+        <help/>
+        <hint/>
+        <label>Field Array</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_71e3611a1b5e91508c5143f3cc4bcb1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:19:14</sys_created_on>
+        <sys_id>2b14215a1b5e91508c5143f3cc4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Array</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_71e3611a1b5e91508c5143f3cc4bcb1e_field_array_en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:19:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_71e3611a1b5e91508c5143f3cc4bcb1e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e^sys_idNOT IN2aa421da1b5e91508c5143f3cc4bcbde,6aa421da1b5e91508c5143f3cc4bcbe4,b97629521b9e91508c5143f3cc4bcba7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>2aa421da1b5e91508c5143f3cc4bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e___action_status___en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:21:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:21:38</sys_created_on>
+        <sys_id>6aa421da1b5e91508c5143f3cc4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e___dont_treat_as_error___en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:21:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>fieldarray</element>
+        <help/>
+        <hint/>
+        <label>Field Array</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:29:30</sys_created_on>
+        <sys_id>b97629521b9e91508c5143f3cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Array</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e_fieldarray_en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:29:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_71e3611a1b5e91508c5143f3cc4bcb1e"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=71e3611a1b5e91508c5143f3cc4bcb1e^sys_idNOT IN571665121b9e91508c5143f3cc4bcbc6"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Add field to Adaptive Card field array">71e3611a1b5e91508c5143f3cc4bcb1e</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"571665121b9e91508c5143f3cc4bcbc6","name":"plan","plan_signature":null}}</plan>
+        <snapshot>b89146561bd2d1508c5143f3cc4bcbbe</snapshot>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>571665121b9e91508c5143f3cc4bcbc6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 21:27:58</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>add_field_to_adaptive_card_field_array</internal_name>
+        <label_cache>[{"name":"{{action.field_array}}","label":"action➛Field Array","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.field_array.Field}}","label":"action➛Field Array➛Field","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{}},{"name":"{{action.field}}","label":"action➛Field","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{}},{"name":"{{action.field.Is_Mandatory}}","label":"action➛Field➛Is Mandatory","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.field_array.Field.Is_Mandatory}}","label":"action➛Field Array➛Field➛Is Mandatory","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray}}","label":"step➛Script step➛fieldArray","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray.Field}}","label":"step➛Script step➛fieldArray➛Field","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray.Field.Is_Mandatory}}","label":"step➛Script step➛fieldArray➛Field➛Is Mandatory","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>Add field to Adaptive Card field array</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Add field to Adaptive Card field array">71e3611a1b5e91508c5143f3cc4bcb1e</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe1625121b9e91508c5143f3cc4bcbd9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:30:26</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=fe1625121b9e91508c5143f3cc4bcbd9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fe1625121b9e91508c5143f3cc4bcbd9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>fe1625121b9e91508c5143f3cc4bcbd9</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>071665121b9e91508c5143f3cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:57</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">871665121b9e91508c5143f3cc4bcb57</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>fe1625121b9e91508c5143f3cc4bcbd9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>c71665121b9e91508c5143f3cc4bcb5f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:30:27</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FD8f166512079e91502396ad0ac753ea43":{},"FlowDesigner:FD8f166512079e91502396ad0ac753ea43.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"ed36b043-48dc-4d28-b766-86a7b19fc0ee\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8f166512079e91502396ad0ac753ea43\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">c31665121b9e91508c5143f3cc4bcb46</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fe1625121b9e91508c5143f3cc4bcbd9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fieldarray</field>
+        <id>fe1625121b9e91508c5143f3cc4bcbd9</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:30:27</sys_created_on>
+        <sys_id>73a625921b9e91508c5143f3cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:30:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9</table>
+        <value>{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>fe1625121b9e91508c5143f3cc4bcbd9</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>831665121b9e91508c5143f3cc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>fe1625121b9e91508c5143f3cc4bcbd9</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>cf1665121b9e91508c5143f3cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=fe1625121b9e91508c5143f3cc4bcbd9^sys_idNOT IN8b1665121b9e91508c5143f3cc4bcb11"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Add field to Adaptive Card field array">fe1625121b9e91508c5143f3cc4bcbd9</action>
+        <cid>98c538df-4b5c-4a9d-b738-26e63cc40a1c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:56</sys_created_on>
+        <sys_id>8b1665121b9e91508c5143f3cc4bcb11</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 21:27:56</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8b1665121b9e91508c5143f3cc4bcb11"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8b1665121b9e91508c5143f3cc4bcb11</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>031665121b9e91508c5143f3cc4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:57</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8b1665121b9e91508c5143f3cc4bcb11</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>c31665121b9e91508c5143f3cc4bcb40</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 21:27:56</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var fArray = inputs.fieldArray;
+  if(gs.nil(fArray[0].Field_Name_No_Spaces_)){
+    fArray[0]=inputs.field;
+  }
+  else{
+    fArray.push(inputs.field);
+  }
+  outputs.fieldarray = fArray;
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8b1665121b9e91508c5143f3cc4bcb11"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field</field>
+        <id>8b1665121b9e91508c5143f3cc4bcb11</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>0f1665121b9e91508c5143f3cc4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:57</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8b1665121b9e91508c5143f3cc4bcb11</table>
+        <value>{{action.field}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fieldArray</field>
+        <id>8b1665121b9e91508c5143f3cc4bcb11</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>cf1665121b9e91508c5143f3cc4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:57</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8b1665121b9e91508c5143f3cc4bcb11</table>
+        <value>{{action.field_array}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8b1665121b9e91508c5143f3cc4bcb11^id=8b1665121b9e91508c5143f3cc4bcb11"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8b1665121b9e91508c5143f3cc4bcb11"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8b1665121b9e91508c5143f3cc4bcb11^sys_idNOT IN071665121b9e91508c5143f3cc4bcb15,0b1665121b9e91508c5143f3cc4bcb19"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fieldArray</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>fieldArray</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">8b1665121b9e91508c5143f3cc4bcb11</model>
+        <model_id>8b1665121b9e91508c5143f3cc4bcb11</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8b1665121b9e91508c5143f3cc4bcb11</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:56</sys_created_on>
+        <sys_id>071665121b9e91508c5143f3cc4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>field</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>field</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">8b1665121b9e91508c5143f3cc4bcb11</model>
+        <model_id>8b1665121b9e91508c5143f3cc4bcb11</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8b1665121b9e91508c5143f3cc4bcb11</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:56</sys_created_on>
+        <sys_id>0b1665121b9e91508c5143f3cc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8b1665121b9e91508c5143f3cc4bcb11^sys_idNOT INc71665121b9e91508c5143f3cc4bcb1f"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc3166512c09e9150281fcb3d497d241d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>397371211bd6859062e50ed2cd4bcb78</scope_name>
+        <serialized_content>{"FlowDesigner:FDc3166512c09e9150281fcb3d497d241d":{"$COCollectionField":[{"Field":{"Is_Choice_Set_Expanded":"Boolean","Is_Choice_Set_Expanded.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Choice Set Expanded\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"Is_Text_Input_Multiline":"Boolean","Is_Text_Input_Multiline.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Text Input Multiline\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"Field_Name_No_Spaces_":"String","Field_Name_No_Spaces_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"Is_Mandatory":"Boolean","Is_Mandatory.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is Mandatory\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"cacc04fa-14a9-4f4a-b194-04f7afd094d6\"}"},"Field_Type":"String","Field_Type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"TextBlock\",\"label\":\"Field Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Text Block\":\"{\\\"label\\\":\\\"Text Block\\\",\\\"value\\\":\\\"TextBlock\\\",\\\"order\\\":1}\",\"Choice Set\":\"{\\\"label\\\":\\\"Choice Set\\\",\\\"value\\\":\\\"Input.ChoiceSet\\\",\\\"order\\\":3}\",\"Text Input\":\"{\\\"label\\\":\\\"Text Input\\\",\\\"value\\\":\\\"Input.Text\\\",\\\"order\\\":4}\",\"Facts(Text List)\":\"{\\\"label\\\":\\\"Facts(Text List)\\\",\\\"value\\\":\\\"FactSet\\\",\\\"order\\\":2}\"}}"},"Text_Block_Text":"String","Text_Block_Text.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Text Block Text\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"Choice_Set_Choices":[{"$519_Choice_Set_Choices":{"Value":"String","Value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"Title":"String","Title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"Choice_Set_Choices.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Choice Set Choices Or Facts\",\"mandatory\":\"false\",\"child_name\":\"Choice\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Choice\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"13a855a0-a358-45cf-88b1-757f8e83bbff\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"fieldArray\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"1d50f17f-3441-4c2e-bba2-fa76642f39a0\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDc3166512c09e9150281fcb3d497d241d\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f04b1c55-132e-4e98-aa86-4a7a3f20d1b6\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDc3166512c09e9150281fcb3d497d241d.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"fieldArray\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"1d50f17f-3441-4c2e-bba2-fa76642f39a0\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDc3166512c09e9150281fcb3d497d241d\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f04b1c55-132e-4e98-aa86-4a7a3f20d1b6\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>871665121b9e91508c5143f3cc4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc3166512c09e9150281fcb3d497d241d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_complex_object_871665121b9e91508c5143f3cc4bcb1d</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Field,child_name=Field,child_type=object,child_type_label=Object,child_uiUniqueId=f04b1c55-132e-4e98-aa86-4a7a3f20d1b6,co_type_name=FDc3166512c09e9150281fcb3d497d241d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1d50f17f-3441-4c2e-bba2-fa76642f39a0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fieldarray</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>fieldArray</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">8b1665121b9e91508c5143f3cc4bcb11</model>
+        <model_id>8b1665121b9e91508c5143f3cc4bcb11</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8b1665121b9e91508c5143f3cc4bcb11</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>c71665121b9e91508c5143f3cc4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8b1665121b9e91508c5143f3cc4bcb11"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_8b1665121b9e91508c5143f3cc4bcb11^sys_idNOT IN031665121b9e91508c5143f3cc4bcb3c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>fieldarray</element>
+        <help/>
+        <hint/>
+        <label>fieldArray</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_8b1665121b9e91508c5143f3cc4bcb11</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>031665121b9e91508c5143f3cc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fieldArray</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8b1665121b9e91508c5143f3cc4bcb11_fieldarray_en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=fe1625121b9e91508c5143f3cc4bcbd9^sys_idNOT IN3e1625121b9e91508c5143f3cc4bcbe1,b61665121b9e91508c5143f3cc4bcb0c"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD36162512a89e9150fdbf1600125cb6dd</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>397371211bd6859062e50ed2cd4bcb78</scope_name>
+        <serialized_content>{"FlowDesigner:FD36162512a89e9150fdbf1600125cb6dd":{"$COCollectionField":[{"Field":{"Is_Choice_Set_Expanded":"Boolean","Is_Choice_Set_Expanded.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Choice Set Expanded\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"Is_Text_Input_Multiline":"Boolean","Is_Text_Input_Multiline.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Text Input Multiline\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"Field_Name_No_Spaces_":"String","Field_Name_No_Spaces_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"Is_Mandatory":"Boolean","Is_Mandatory.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is Mandatory\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"Field_Type":"String","Field_Type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"TextBlock\",\"label\":\"Field Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Text Block\":\"{\\\"label\\\":\\\"Text Block\\\",\\\"value\\\":\\\"TextBlock\\\",\\\"order\\\":1}\",\"Choice Set\":\"{\\\"label\\\":\\\"Choice Set\\\",\\\"value\\\":\\\"Input.ChoiceSet\\\",\\\"order\\\":3}\",\"Text Input\":\"{\\\"label\\\":\\\"Text Input\\\",\\\"value\\\":\\\"Input.Text\\\",\\\"order\\\":4}\",\"Facts(Text List)\":\"{\\\"label\\\":\\\"Facts(Text List)\\\",\\\"value\\\":\\\"FactSet\\\",\\\"order\\\":2}\"}}"},"Text_Block_Text":"String","Text_Block_Text.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Text Block Text\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"Choice_Set_Choices":[{"$515_Choice_Set_Choices":{"Value":"String","Value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"Title":"String","Title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"Choice_Set_Choices.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Choice Set Choices Or Facts\",\"mandatory\":\"false\",\"child_name\":\"Choice\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Choice\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"13a855a0-a358-45cf-88b1-757f8e83bbff\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Field Array\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"025abf55-5d71-40f2-9dbf-6f909b2bf8e5\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD36162512a89e9150fdbf1600125cb6dd\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d02089d8-219d-4cbf-93be-5d2d1af81b97\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD36162512a89e9150fdbf1600125cb6dd.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Field Array\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"025abf55-5d71-40f2-9dbf-6f909b2bf8e5\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD36162512a89e9150fdbf1600125cb6dd\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d02089d8-219d-4cbf-93be-5d2d1af81b97\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f61625121b9e91508c5143f3cc4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD36162512a89e9150fdbf1600125cb6dd</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_complex_object_f61625121b9e91508c5143f3cc4bcbdd</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Field,child_name=Field,child_type=object,child_type_label=Object,child_uiUniqueId=d02089d8-219d-4cbf-93be-5d2d1af81b97,co_type_name=FD36162512a89e9150fdbf1600125cb6dd,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=025abf55-5d71-40f2-9dbf-6f909b2bf8e5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>field_array</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Field Array</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Add field to Adaptive Card field array">fe1625121b9e91508c5143f3cc4bcbd9</model>
+        <model_id>fe1625121b9e91508c5143f3cc4bcbd9</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_fe1625121b9e91508c5143f3cc4bcbd9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:56</sys_created_on>
+        <sys_id>3e1625121b9e91508c5143f3cc4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3e1625121b9e91508c5143f3cc4bcbe1"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD3a162512689e9150760317e2936747df</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>397371211bd6859062e50ed2cd4bcb78</scope_name>
+        <serialized_content>{"FlowDesigner:FD3a162512689e9150760317e2936747df":{"Is_Choice_Set_Expanded":"Boolean","Is_Choice_Set_Expanded.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Choice Set Expanded\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"Is_Text_Input_Multiline":"Boolean","Is_Text_Input_Multiline.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Text Input Multiline\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"Field_Name_No_Spaces_":"String","Field_Name_No_Spaces_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"Is_Mandatory":"Boolean","Is_Mandatory.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is Mandatory\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"Field_Type":"String","Field_Type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"TextBlock\",\"label\":\"Field Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Text Block\":\"{\\\"label\\\":\\\"Text Block\\\",\\\"value\\\":\\\"TextBlock\\\",\\\"order\\\":1}\",\"Choice Set\":\"{\\\"label\\\":\\\"Choice Set\\\",\\\"value\\\":\\\"Input.ChoiceSet\\\",\\\"order\\\":3}\",\"Text Input\":\"{\\\"label\\\":\\\"Text Input\\\",\\\"value\\\":\\\"Input.Text\\\",\\\"order\\\":4}\",\"Facts(Text List)\":\"{\\\"label\\\":\\\"Facts(Text List)\\\",\\\"value\\\":\\\"FactSet\\\",\\\"order\\\":2}\"}}"},"Text_Block_Text":"String","Text_Block_Text.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Text Block Text\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"Choice_Set_Choices":[{"$518_Choice_Set_Choices":{"Value":"String","Value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"Title":"String","Title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"Choice_Set_Choices.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Choice Set Choices Or Facts\",\"mandatory\":\"false\",\"child_name\":\"Choice\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Choice\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"13a855a0-a358-45cf-88b1-757f8e83bbff\"}"}},"FlowDesigner:FD3a162512689e9150760317e2936747df.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD3a162512689e9150760317e2936747df\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Field\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"65000\",\"uiUniqueId\":\"3b873de1-9072-4d74-aab4-cbc6ddbbaf9f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa1625121b9e91508c5143f3cc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD3a162512689e9150760317e2936747df</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_complex_object_fa1625121b9e91508c5143f3cc4bcbdf</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD3a162512689e9150760317e2936747df,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3b873de1-9072-4d74-aab4-cbc6ddbbaf9f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>field</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Field</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Add field to Adaptive Card field array">fe1625121b9e91508c5143f3cc4bcbd9</model>
+        <model_id>fe1625121b9e91508c5143f3cc4bcbd9</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_fe1625121b9e91508c5143f3cc4bcbd9</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:56</sys_created_on>
+        <sys_id>b61665121b9e91508c5143f3cc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b61665121b9e91508c5143f3cc4bcb0c"/>
+    <sys_hub_action_output action="delete_multiple" query="model=fe1625121b9e91508c5143f3cc4bcbd9^sys_idNOT IN871665121b9e91508c5143f3cc4bcb57,c31665121b9e91508c5143f3cc4bcb46,eba625921b9e91508c5143f3cc4bcba0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=868574c4-cee2-427f-808b-44f9d9f02a47,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Add field to Adaptive Card field array">fe1625121b9e91508c5143f3cc4bcbd9</model>
+        <model_id>fe1625121b9e91508c5143f3cc4bcbd9</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>871665121b9e91508c5143f3cc4bcb57</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:30:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=871665121b9e91508c5143f3cc4bcb57"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=871665121b9e91508c5143f3cc4bcb57"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8f166512079e91502396ad0ac753ea43</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>397371211bd6859062e50ed2cd4bcb78</scope_name>
+        <serialized_content>{"FlowDesigner:FD8f166512079e91502396ad0ac753ea43":{},"FlowDesigner:FD8f166512079e91502396ad0ac753ea43.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"ed36b043-48dc-4d28-b766-86a7b19fc0ee\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8f166512079e91502396ad0ac753ea43\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>431665121b9e91508c5143f3cc4bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD8f166512079e91502396ad0ac753ea43</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_complex_object_431665121b9e91508c5143f3cc4bcb44</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD8f166512079e91502396ad0ac753ea43,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=ed36b043-48dc-4d28-b766-86a7b19fc0ee</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Add field to Adaptive Card field array">fe1625121b9e91508c5143f3cc4bcbd9</model>
+        <model_id>fe1625121b9e91508c5143f3cc4bcbd9</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>c31665121b9e91508c5143f3cc4bcb46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:30:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c31665121b9e91508c5143f3cc4bcb46"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c31665121b9e91508c5143f3cc4bcb46"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDefa62592469e915006d2098450738a9b</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>397371211bd6859062e50ed2cd4bcb78</scope_name>
+        <serialized_content>{"FlowDesigner:FDefa62592469e915006d2098450738a9b":{"$COCollectionField":[{"Field":{"Is_Choice_Set_Expanded":"Boolean","Is_Choice_Set_Expanded.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Choice Set Expanded\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"963d5f61-d662-4acb-8054-d529ce6309ef\"}"},"Is_Text_Input_Multiline":"Boolean","Is_Text_Input_Multiline.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Is Text Input Multiline\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"c68e4cbd-54de-406c-ae9f-24f49bbbb6fb\"}"},"Field_Name_No_Spaces_":"String","Field_Name_No_Spaces_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"23522e0c-522e-4941-80fd-aaa7a3a8ad63\"}"},"Is_Mandatory":"Boolean","Is_Mandatory.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is Mandatory\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"cacc04fa-14a9-4f4a-b194-04f7afd094d6\"}"},"Field_Type":"String","Field_Type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"TextBlock\",\"label\":\"Field Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\",\"uiUniqueId\":\"09309505-1830-4c89-b39d-3bb3b489431b\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Text Block\":\"{\\\"label\\\":\\\"Text Block\\\",\\\"value\\\":\\\"TextBlock\\\",\\\"order\\\":1}\",\"Choice Set\":\"{\\\"label\\\":\\\"Choice Set\\\",\\\"value\\\":\\\"Input.ChoiceSet\\\",\\\"order\\\":3}\",\"Text Input\":\"{\\\"label\\\":\\\"Text Input\\\",\\\"value\\\":\\\"Input.Text\\\",\\\"order\\\":4}\",\"Facts(Text List)\":\"{\\\"label\\\":\\\"Facts(Text List)\\\",\\\"value\\\":\\\"FactSet\\\",\\\"order\\\":2}\"}}"},"Text_Block_Text":"String","Text_Block_Text.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Text Block Text\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"14a96167-20cb-40d4-83d8-367b0fafc5c1\"}"},"Choice_Set_Choices":[{"$522_Choice_Set_Choices":{"Value":"String","Value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"3b3d2baf-02fa-4aaf-946b-ee397df277ff\"}"},"Title":"String","Title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"7ce12589-6d49-4afe-a23c-bff83fbf33af\"}"}}}],"Choice_Set_Choices.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Choice Set Choices Or Facts\",\"mandatory\":\"false\",\"child_name\":\"Choice\",\"uiUniqueId\":\"0bca7d03-562f-4cb5-aa45-e4aa91b01ab9\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Choice\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"13a855a0-a358-45cf-88b1-757f8e83bbff\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"98c538df-4b5c-4a9d-b738-26e63cc40a1c\",\"default_value\":\"\",\"label\":\"Field Array\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"bd21ba8b-c064-469d-9615-1ea2e87c1815\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDefa62592469e915006d2098450738a9b\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"1d50f17f-3441-4c2e-bba2-fa76642f39a0\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f04b1c55-132e-4e98-aa86-4a7a3f20d1b6\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDefa62592469e915006d2098450738a9b.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"98c538df-4b5c-4a9d-b738-26e63cc40a1c\",\"default_value\":\"\",\"label\":\"Field Array\",\"mandatory\":\"false\",\"child_name\":\"Field\",\"uiUniqueId\":\"bd21ba8b-c064-469d-9615-1ea2e87c1815\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDefa62592469e915006d2098450738a9b\",\"child_label\":\"Field\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"1d50f17f-3441-4c2e-bba2-fa76642f39a0\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f04b1c55-132e-4e98-aa86-4a7a3f20d1b6\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:30:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3a625921b9e91508c5143f3cc4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDefa62592469e915006d2098450738a9b</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_complex_object_a3a625921b9e91508c5143f3cc4bcb9c</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Field,child_name=Field,child_type=object,child_type_label=Object,child_uiUniqueId=f04b1c55-132e-4e98-aa86-4a7a3f20d1b6,co_type_name=FDefa62592469e915006d2098450738a9b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=98c538df-4b5c-4a9d-b738-26e63cc40a1c,sourceType=step,sourceUiUniqueId=1d50f17f-3441-4c2e-bba2-fa76642f39a0,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=bd21ba8b-c064-469d-9615-1ea2e87c1815</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fieldarray</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Field Array</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Add field to Adaptive Card field array">fe1625121b9e91508c5143f3cc4bcbd9</model>
+        <model_id>fe1625121b9e91508c5143f3cc4bcbd9</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:30:27</sys_created_on>
+        <sys_id>eba625921b9e91508c5143f3cc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:30:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eba625921b9e91508c5143f3cc4bcba0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eba625921b9e91508c5143f3cc4bcba0"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fe1625121b9e91508c5143f3cc4bcbd9"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=fe1625121b9e91508c5143f3cc4bcbd9^sys_idNOT IN831665121b9e91508c5143f3cc4bcb61"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Add field to Adaptive Card field array">fe1625121b9e91508c5143f3cc4bcbd9</action_type_id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>831665121b9e91508c5143f3cc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:57</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=831665121b9e91508c5143f3cc4bcb61"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_fe1625121b9e91508c5143f3cc4bcbd9^sys_idNOT IN871665121b9e91508c5143f3cc4bcb0f,f61665121b9e91508c5143f3cc4bcb0b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>field</element>
+        <help/>
+        <hint/>
+        <label>Field</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fe1625121b9e91508c5143f3cc4bcbd9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:56</sys_created_on>
+        <sys_id>871665121b9e91508c5143f3cc4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fe1625121b9e91508c5143f3cc4bcbd9_field_en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>field_array</element>
+        <help/>
+        <hint/>
+        <label>Field Array</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fe1625121b9e91508c5143f3cc4bcbd9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:56</sys_created_on>
+        <sys_id>f61665121b9e91508c5143f3cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Array</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fe1625121b9e91508c5143f3cc4bcbd9_field_array_en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_fe1625121b9e91508c5143f3cc4bcbd9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9^sys_idNOT IN871665121b9e91508c5143f3cc4bcb5c,afa625921b9e91508c5143f3cc4bcba4,c71665121b9e91508c5143f3cc4bcb56"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>871665121b9e91508c5143f3cc4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9___dont_treat_as_error___en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>fieldarray</element>
+        <help/>
+        <hint/>
+        <label>Field Array</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:30:27</sys_created_on>
+        <sys_id>afa625921b9e91508c5143f3cc4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Array</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9_fieldarray_en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:30:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-04 19:27:57</sys_created_on>
+        <sys_id>c71665121b9e91508c5143f3cc4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9___action_status___en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:27:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_fe1625121b9e91508c5143f3cc4bcbd9"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>71e3611a1b5e91508c5143f3cc4bcb1e</sys_id>
+        <latest_snapshot>fe1625121b9e91508c5143f3cc4bcbd9</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch0-07-19-2022_07-26-2022_2149.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

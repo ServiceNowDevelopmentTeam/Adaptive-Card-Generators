@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_apig_adaptive_ca.adaptive_card_template_section_user" name="x_apig_adaptive_ca.adaptive_card_template_section_user">5cf0cd4b1b7d0e50c16ddb9ebd4bcbd5</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-04-30 16:43:04</sys_created_on>
+        <sys_id>50f0cd4b1b7d0e50c16ddb9ebd4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5cf0cd4b1b7d0e50c16ddb9ebd4bcbd5</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_embedded_help_role_50f0cd4b1b7d0e50c16ddb9ebd4bcbd7</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-04-30 16:43:04</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

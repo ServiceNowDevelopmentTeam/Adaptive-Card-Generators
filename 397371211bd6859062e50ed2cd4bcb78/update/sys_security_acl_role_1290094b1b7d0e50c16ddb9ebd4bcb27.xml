@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-04-30 16:41:34</sys_created_on>
+        <sys_id>1290094b1b7d0e50c16ddb9ebd4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_apig_adaptive_ca_adaptive_card_element.x_apig_adaptive_ca.adaptive_card_element_user</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_security_acl display_value="x_apig_adaptive_ca_adaptive_card_element">1690094b1b7d0e50c16ddb9ebd4bcb22</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1290094b1b7d0e50c16ddb9ebd4bcb27</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-04-30 16:41:34</sys_updated_on>
+        <sys_user_role display_value="x_apig_adaptive_ca.adaptive_card_element_user" name="x_apig_adaptive_ca.adaptive_card_element_user">3590c10b1b7d0e50c16ddb9ebd4bcbd6</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

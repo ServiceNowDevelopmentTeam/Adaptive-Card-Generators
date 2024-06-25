@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Adaptive Card">836f38c71b7d0e50c16ddb9ebd4bcb49</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_apig_adaptive_ca_adaptive_card">sys_class_name!=x_apig_adaptive_ca_adaptive_card_template^EQ<item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="!=" or="false" value="x_apig_adaptive_ca_adaptive_card_template"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Adaptive cards</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_apig_adaptive_ca_adaptive_card</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_apig_adaptive_ca.adaptive_card_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-04-30 16:36:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>876f38c71b7d0e50c16ddb9ebd4bcb4d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Cards</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_app_module_876f38c71b7d0e50c16ddb9ebd4bcb4d</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-04-30 22:26:12</sys_updated_on>
+        <timeline_page/>
+        <title>Cards</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

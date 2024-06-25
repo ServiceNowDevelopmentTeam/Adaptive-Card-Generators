@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ritm" label="RITM" language="en" table="var__m_sys_hub_flow_input_8f3b15e31bf5551062e50ed2cd4bcb7b">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ritm</element>
+            <help/>
+            <hint/>
+            <label>RITM</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_8f3b15e31bf5551062e50ed2cd4bcb7b</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-09-13 19:22:18</sys_created_on>
+            <sys_id>e36b9da71bf5551062e50ed2cd4bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>RITM</sys_name>
+            <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8f3b15e31bf5551062e50ed2cd4bcb7b_ritm_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

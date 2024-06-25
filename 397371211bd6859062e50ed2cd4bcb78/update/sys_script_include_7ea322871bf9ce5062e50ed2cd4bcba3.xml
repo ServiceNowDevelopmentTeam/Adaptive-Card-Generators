@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_apig_adaptive_ca.AdaptiveCardTemplateUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AdaptiveCardTemplateUtil</name>
+        <script><![CDATA[//Script include to build out adaptive card templates from records
+
+var AdaptiveCardTemplateUtil = Class.create();
+AdaptiveCardTemplateUtil.prototype = {
+    initialize: function() {
+        this.CONSTANT = {};
+        this.CONSTANT.CARD_ELEMENT_TABLE = 'x_apig_adaptive_ca_adaptive_card_element';
+        this.CONSTANT.CARD_TEMPLATE_TABLE = 'x_apig_adaptive_ca_adaptive_card_template';
+        this.CONSTANT.CARD_TABLE = 'x_apig_adaptive_ca_adaptive_card';
+        this.CONSTANT.CARD_TEMPLATE_SECTION_TABLE = 'x_apig_adaptive_ca_adaptive_card_template_section';
+        this.CONSTANT.ELEMENT_TYPE_MAP = {
+            'TextBlock': ['text'],
+            'Image': ['url'],
+            'Input.Text': ['placeholder', 'value', 'id'],
+        };
+        this.cardTemplate = {
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "type": "AdaptiveCard",
+            "version": "1.0",
+            "hideOriginalBody": true,
+            "expectedActors": [],
+            "padding": "None",
+            "originator": "130e10fd-f029-4b15-9afe-080d08b1b932",
+            "body": [],
+            "debug": ''
+        };
+        this.card = {};
+    },
+    setCard: function(card) { //Card is a gliderecord
+        this.card = card;
+    },
+    getCard: function() {
+        return this.card;
+    },
+    buildCard: function() {
+        var sectionGr = new GlideRecord(this.CONSTANT.CARD_TEMPLATE_SECTION_TABLE);
+        //sectionGr.addQuery('parent', this.card.template);
+        //sectionGr.addOrCondition('parent', this.card);
+        sectionGr.addEncodedQuery('parent=' + this.card.template.sys_id + '^ORparent=' + this.card.sys_id);
+        //sectionGr.addQuery('type', 'Container');//Only get sections that are containers (for now)
+        sectionGr.query();
+
+        while (sectionGr.next()) {
+            this.cardTemplate.debug += '\nSection row ' + sectionGr.name.toString();
+            this._addSection(sectionGr);
+        }
+        return this.cardTemplate;
+    },
+    _addSection: function(section) { //Section is a gliderecord
+        var section = this._buildSection(section);
+        this.cardTemplate.body.push(section);
+    },
+    _buildSection: function(section) { //Section is a gliderecord
+        var sectionObj = {
+            "type": "Container",
+            "items": []
+        };
+        var elements = this._getElements(section);
+        for (var i = 0; i < elements.length; i++) {
+            sectionObj.items.push(this._buildElement(elements[i]));
+        }
+        return sectionObj;
+    },
+    _buildElement: function(element) { //Element is an object
+        var elementObj = element;
+        if (elementObj.type === 'Container') {
+            elementObj.items = [];
+            var elements = this._getElements(element);
+            for (var i = 0; i < elements.length; i++) {
+                elementObj.items.push(this._buildElement(elements[i]));
+            }
+            return elementObj;
+        }
+        var properties = this.CONSTANT.ELEMENT_TYPE_MAP[elementObj.type];
+		if(!gs.nil(properties)){
+			for (var i = 0; i < properties.length; i++) {
+				if (properties[i] === 'id') {
+					elementObj.id = element.sys_id.toString();
+				} else {
+					elementObj[properties[i]] = element[properties[i]].toString();
+				}
+			}
+		}
+
+        return elementObj;
+    },
+    _getElements: function(section) { //Section is a gliderecord
+        var elements = [];
+        var gr = new GlideRecord(this.CONSTANT.CARD_ELEMENT_TABLE);
+        gr.addQuery('section', section.sys_id);
+        gr.query();
+        while (gr.next()) {
+            elements.push({
+				type: gr.getValue('type'),
+                value: gr.getValue('value'),
+				order: gr.getValue('order')
+            });
+        }
+        return elements;
+    },
+    type: 'AdaptiveCardTemplateUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-04-30 23:54:37</sys_created_on>
+        <sys_id>7ea322871bf9ce5062e50ed2cd4bcba3</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>AdaptiveCardTemplateUtil</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_script_include_7ea322871bf9ce5062e50ed2cd4bcba3</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-05-03 13:45:05</sys_updated_on>
+    </sys_script_include>
+</record_update>
