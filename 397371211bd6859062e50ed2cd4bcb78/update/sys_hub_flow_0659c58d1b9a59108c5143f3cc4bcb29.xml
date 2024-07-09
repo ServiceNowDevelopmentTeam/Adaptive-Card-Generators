@@ -5,11 +5,15 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>generate_adaptive_card_action</internal_name>
         <label_cache>[{"name":"subflow.Action","label":"Input➛Action","reference":"","reference_display":"","type":"object","base_type":"object","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"83779fd9-88a9-4e29-8f86-bd9148175130"}}]</label_cache>
         <master_snapshot>04d9c9c11bda59108c5143f3cc4bcb66</master_snapshot>
@@ -24,6 +28,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-09-30 20:09:51</sys_created_on>
@@ -37,8 +42,8 @@
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
         <sys_update_name>sys_hub_flow_0659c58d1b9a59108c5143f3cc4bcb29</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-10-05 19:26:45</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-25 18:18:51</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=0659c58d1b9a59108c5143f3cc4bcb29"/>
@@ -73,12 +78,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a5a981c11bda59108c5143f3cc4bcb88</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FDe1a981c198da591030d81adcbd9c1c88</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_a5a981c11bda59108c5143f3cc4bcb88</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_schema</type>
@@ -181,12 +186,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>61a981c11bda59108c5143f3cc4bcb90</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FDada981c1ffda5910beb4720e532e988f</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_61a981c11bda59108c5143f3cc4bcb90</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_schema</type>
@@ -291,6 +296,7 @@
         <flow display_value="Generate Adaptive Card Action">0659c58d1b9a59108c5143f3cc4bcb29</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>1</order>
@@ -384,11 +390,13 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>generate_adaptive_card_action</internal_name>
         <label_cache>[{"name":"subflow.Action","label":"Input➛Action","reference":"","reference_display":"","type":"object","base_type":"object","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"83779fd9-88a9-4e29-8f86-bd9148175130"}}]</label_cache>
         <master>true</master>
@@ -450,12 +458,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>04d9c9c11bda59108c5143f3cc4bcb68</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD40d9c9c130da5910c8894e29ea7cc468</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_04d9c9c11bda59108c5143f3cc4bcb68</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_schema</type>
@@ -558,12 +566,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>00d9c9c11bda59108c5143f3cc4bcb9f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD4cd9c9c14eda5910f27873b3ec506b9e</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_00d9c9c11bda59108c5143f3cc4bcb9f</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_schema</type>
@@ -668,6 +676,7 @@
         <flow display_value="Generate Adaptive Card Action">04d9c9c11bda59108c5143f3cc4bcb66</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>1</order>

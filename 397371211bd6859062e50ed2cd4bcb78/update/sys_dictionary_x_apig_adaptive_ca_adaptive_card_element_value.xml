@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-04-30 16:41:33</sys_created_on>
-        <sys_id>0840c10b1b7d0e50c16ddb9ebd4bcbbe</sys_id>
         <sys_name>Value</sys_name>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>

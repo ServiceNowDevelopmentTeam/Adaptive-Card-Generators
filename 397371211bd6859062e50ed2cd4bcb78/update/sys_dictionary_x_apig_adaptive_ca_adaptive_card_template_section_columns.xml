@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="columns" table="x_apig_adaptive_ca_adaptive_card_template_section">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>
@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-04-30 18:50:16</sys_created_on>
-        <sys_id>6b0e95431bb5ce5062e50ed2cd4bcb99</sys_id>
         <sys_name>Number of Columns</sys_name>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>

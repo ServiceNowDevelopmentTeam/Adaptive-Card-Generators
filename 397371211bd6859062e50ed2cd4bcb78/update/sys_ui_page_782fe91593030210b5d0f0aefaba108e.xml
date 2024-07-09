@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function saveCard() {
+    if (typeof designer !== 'undefined' && designer.getCard) {
+        var cardData = designer.getCard();
+        var cardJson = JSON.stringify(cardData);
+        var cardName = prompt("Enter a name for this card:", "My Adaptive Card");
+        if (cardName) {
+            sendCardToServer(cardName, cardJson);
+        }
+    } else {
+        alert('Designer is not initialized properly');
+    }
+}
+function loadCard(sysId) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/api/now/table/x_apig_adaptive_ca_adaptive_card/' + sysId, true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.setRequestHeader('Accept', 'application/json');
+    xhr.onload = function () {
+        if (xhr.status === 200) {
+            var result = JSON.parse(xhr.responseText);
+            if (result.result) {
+                var cardData = JSON.parse(result.result.json_schema);
+                designer.setCard(cardData);
+            } else {
+                console.error('xxxxxError loading card: Card not found');
+                setDefaultCard();
+            }
+        } else {
+            console.error('xxxxxError loading card: ' + xhr.statusText);
+            setDefaultCard();
+        }
+    };
+    xhr.onerror = function () {
+        console.error('xxxxxError loading card: Network error');
+        setDefaultCard();
+    };
+    xhr.send();
+}
+function setDefaultCard() {
+    designer.setCard(
+        {
+            type: "AdaptiveCard",
+            version: "1.0",
+            body: [
+                {
+                    type: "TextBlock",
+                    text: "Welcome to ServiceNow Adaptive Card Designer",
+                    size: "Large",
+                    weight: "Bolder"
+                },
+                {
+                    type: "TextBlock",
+                    text: "This is a sample card. You can modify it or start from scratch.",
+                    wrap: true
+                },
+                {
+                    type: "Input.Text",
+                    id: "sampleInput",
+                    placeholder: "Enter some text here"
+                }
+            ],
+            actions: [
+                {
+                    type: "Action.Submit",
+                    title: "Submit"
+                }
+            ]
+        }
+    );
+}
+function sendCardToServer(cardName, cardJson) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', '/api/now/table/x_apig_adaptive_ca_adaptive_card', true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.setRequestHeader('Accept', 'application/json');
+    xhr.onload = function () {
+        if (xhr.status === 201) {
+            var result = JSON.parse(xhr.responseText);
+            alert('Card saved successfully! Sys ID: ' + result.result.sys_id);
+        } else {
+            alert('Error saving card: ' + xhr.statusText);
+        }
+    };
+    xhr.onerror = function () {
+        alert('Error saving card: Network error');
+    };
+    var data = JSON.stringify({
+        name: cardName,
+        json_schema: cardJson
+    });
+    xhr.send(data);
+}]]></client_script>
+        <description/>
+        <direct>true</direct>
+        <endpoint>x_apig_adaptive_ca_AdaptiveCardDesigner.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <g:evaluate>
+        var pageId = jelly.getUrlParameter('sys_id');
+    </g:evaluate>
+    <html lang="en">
+    <head>
+        <!-- Adaptive Cards Designer dependencies -->
+        <script src="https://unpkg.com/adaptivecards@latest/dist/adaptivecards.min.js"></script>
+        <script src="https://unpkg.com/adaptive-expressions@latest/lib/browser.js"></script>
+        <script src="https://unpkg.com/markdown-it@latest/dist/markdown-it.min.js"></script>
+        <script src="https://unpkg.com/adaptivecards-designer@1.4.0/dist/adaptivecards-designer.min.js"></script>
+        <script src="https://unpkg.com/monaco-editor@latest/min/vs/loader.js"></script>
+        <style>
+            #designerRootHost {
+                height: 100%;
+                width: 100%;
+            }
+            #saveButtonContainer {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                z-index: 1000;
+            }
+            #saveButton {
+                padding: 10px 20px;
+                font-size: 16px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            #saveButton:hover {
+                background-color: #45a049;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="designerRootHost"></div>
+            <div id="saveButtonContainer">
+                <button id="saveButton" onclick="saveCard()">Save Card</button>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            var designer;
+            var cardSysId = '${pageId}';
+
+            window.onload = function () {
+                initializeDesigner();
+            };
+
+            function initializeDesigner() {
+                let hostContainers = [];
+
+                // Initialize designer
+                designer = new ACDesigner.CardDesigner(hostContainers);
+
+                designer.assetPath = "https://unpkg.com/adaptivecards-designer@latest/dist";
+
+                // Load Monaco editor
+                require.config({ paths: { 'vs': 'https://unpkg.com/monaco-editor@0.17.1/min/vs' } });
+                require(['vs/editor/editor.main'], function () {
+                    designer.monacoModuleLoaded();
+                });
+
+                // Attach designer to DOM
+                designer.attachTo(document.getElementById("designerRootHost"));
+
+                // Clear the toolbar
+                var toolbarElement = designer.toolbar._attachedTo;
+                toolbarElement.innerHTML = '';
+
+                // Set initial card
+                require(['vs/editor/editor.main'], function () {
+                    if (cardSysId) {
+                        loadCard(cardSysId);
+                    } else {
+                        setDefaultCard();
+                    }
+                });
+
+                designer.targetVersion = ACDesigner.SupportedTargetVersions[0];
+                designer.treeViewToolbox.collapse();
+                designer.jsonEditorToolbox.collapse();
+            }
+
+
+
+
+
+        </script>
+    </body>
+    </html>
+</j:jelly>]]></html>
+        <name>AdaptiveCardDesigner</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-26 13:00:10</sys_created_on>
+        <sys_id>782fe91593030210b5d0f0aefaba108e</sys_id>
+        <sys_mod_count>68</sys_mod_count>
+        <sys_name>AdaptiveCardDesigner</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_ui_page_782fe91593030210b5d0f0aefaba108e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-01 23:22:23</sys_updated_on>
+    </sys_ui_page>
+</record_update>

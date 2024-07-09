@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for Adaptive Card Workspace</description>
+        <exclude_from_evaluation>false</exclude_from_evaluation>
+        <genius_result_assembly/>
+        <label>adaptive-card-workspace Search Profile</label>
+        <name>x_apig_adaptive_ca_njfkjowa_search_profile</name>
+        <publish_id>4b4c2134-9876-4894-b059-58d398587ca4</publish_id>
+        <qna_model_id/>
+        <state>DRAFT</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-04 15:01:19</sys_created_on>
+        <sys_id>9bf81f37f103021036f1f0914a9b4547</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>adaptive-card-workspace Search Profile</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>ais_search_profile_9bf81f37f103021036f1f0914a9b4547</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-04 15:01:26</sys_updated_on>
+    </ais_search_profile>
+</record_update>

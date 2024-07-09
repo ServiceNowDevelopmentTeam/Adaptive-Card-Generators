@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Adaptive Card Workspace">13f81f3732030210b78e7a90d6245541</dashboard>
+        <experience display_value="Adaptive Card Workspace">13f81f37f50302100610b6d3d3ba3848</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-04 15:01:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57f81f37a50302100dfb6d06fa6b393f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>par_dashboard_visibility_57f81f37a50302100dfb6d06fa6b393f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-04 15:01:19</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="recipient" label="Recipient" language="en" table="var__m_sys_hub_flow_input_93a67da51b1a859062e50ed2cd4bcb6e">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>recipient</element>
+            <help/>
+            <hint/>
+            <label>Recipient</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_93a67da51b1a859062e50ed2cd4bcb6e</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-03-17 16:33:45</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Recipient</sys_name>
+            <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_93a67da51b1a859062e50ed2cd4bcb6e_recipient_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-03-17 16:33:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

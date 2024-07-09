@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="fa09137793030210b5d0f0aefaba103b" sys_domain="global" table="x_apig_adaptive_ca_adaptive_card_template_section" version="3" view="workspace-adaptive-card-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 15:01:32</sys_created_on>
+            <sys_id>7e09137793030210b5d0f0aefaba103c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_apig_adaptive_ca_adaptive_card_template_section" sys_domain="global" view="13f81f37b503021056d7c6295f3a2c3e">fa09137793030210b5d0f0aefaba103b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 15:01:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 15:01:32</sys_created_on>
+            <sys_id>f209137793030210b5d0f0aefaba103d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_apig_adaptive_ca_adaptive_card_template_section" sys_domain="global" view="13f81f37b503021056d7c6295f3a2c3e">fa09137793030210b5d0f0aefaba103b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 15:01:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>columns</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 15:01:32</sys_created_on>
+            <sys_id>fa09137793030210b5d0f0aefaba103e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_apig_adaptive_ca_adaptive_card_template_section" sys_domain="global" view="13f81f37b503021056d7c6295f3a2c3e">fa09137793030210b5d0f0aefaba103b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 15:01:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 15:01:32</sys_created_on>
+            <sys_id>7a09137793030210b5d0f0aefaba103d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_apig_adaptive_ca_adaptive_card_template_section" sys_domain="global" view="13f81f37b503021056d7c6295f3a2c3e">fa09137793030210b5d0f0aefaba103b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 15:01:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 15:01:32</sys_created_on>
+            <sys_id>7209137793030210b5d0f0aefaba103f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_apig_adaptive_ca_adaptive_card_template_section" sys_domain="global" view="13f81f37b503021056d7c6295f3a2c3e">fa09137793030210b5d0f0aefaba103b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 15:01:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 15:01:32</sys_created_on>
+            <sys_id>fe09137793030210b5d0f0aefaba103d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_apig_adaptive_ca_adaptive_card_template_section" sys_domain="global" view="13f81f37b503021056d7c6295f3a2c3e">fa09137793030210b5d0f0aefaba103b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 15:01:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>section</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 15:01:32</sys_created_on>
+            <sys_id>f609137793030210b5d0f0aefaba103f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_apig_adaptive_ca_adaptive_card_template_section" sys_domain="global" view="13f81f37b503021056d7c6295f3a2c3e">fa09137793030210b5d0f0aefaba103b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 15:01:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>column</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 15:01:32</sys_created_on>
+            <sys_id>7609137793030210b5d0f0aefaba103e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_apig_adaptive_ca_adaptive_card_template_section" sys_domain="global" view="13f81f37b503021056d7c6295f3a2c3e">fa09137793030210b5d0f0aefaba103b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 15:01:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_apig_adaptive_ca_adaptive_card_template_section</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 15:01:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa09137793030210b5d0f0aefaba103b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_apig_adaptive_ca_adaptive_card_template_section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+            <sys_update_name>sys_ui_section_fa09137793030210b5d0f0aefaba103b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 15:01:32</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Adaptive Card Workspace 0" name="workspace-adaptive-card-workspace-0">13f81f37b503021056d7c6295f3a2c3e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

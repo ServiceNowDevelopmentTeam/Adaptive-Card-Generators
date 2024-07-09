@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="68d0850b1b7d0e50c16ddb9ebd4bcb29" extends="x_apig_adaptive_ca_adaptive_card_element" label="Adaptive Card Template Section" max_length="40" name="x_apig_adaptive_ca_adaptive_card_template_section" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="1" label="Number of Columns" mandatory="true" max_length="40" name="columns" type="integer"/>
+    </element>
+</database>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_apig_adaptive_ca.AdaptiveCardGeneratorUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AdaptiveCardGeneratorUtils</name>
+        <script><![CDATA[var AdaptiveCardGeneratorUtils = Class.create();
+AdaptiveCardGeneratorUtils.prototype = {
+    initialize: function() {
+        var ACSchema = new x_apig_adaptive_ca.AdaptiveCardGeneratorSchema();
+        this.schema = ACSchema.schema;
+        this.CONST = new AdaptiveCardGeneratorConstants();
+    },
+
+    saveCard: function(cardName, cardPayload) {
+        var cardGr = new GlideRecord(this.CONST.tables.card);
+        cardGr.initialize();
+        cardGr.name = cardName;
+        cardGr.schema_version = cardPayload.version || "1.0";
+        var cardSysId = cardGr.insert();
+        
+        this.saveCardElements(cardPayload.body, cardSysId);
+        
+        return cardSysId;
+    },
+
+    saveCardElements: function(elements, cardSysId, parentSysId) {
+        for (var i = 0; i < elements.length; i++) {
+            var element = elements[i];
+            var elementGr = new GlideRecord(this.CONST.tables.element);
+            elementGr.initialize();
+            elementGr.card = cardSysId;
+            elementGr.parent = parentSysId || '';
+            elementGr.type = element.type;
+            elementGr.order = i;
+
+            // Convert element properties to name-value pairs
+            var nameValuePairs = new GlideRecord('sys_name_value');
+            for (var prop in element) {
+                if (element.hasOwnProperty(prop) && prop !== 'type' && prop !== 'items') {
+                    nameValuePairs.addRow(prop, JSON.stringify(element[prop]));
+                }
+            }
+            elementGr.attributes = nameValuePairs;
+
+            var elementSysId = elementGr.insert();
+            
+            if (element.items) {
+                this.saveCardElements(element.items, cardSysId, elementSysId);
+            }
+        }
+    },
+
+    loadCard: function(cardSysId) {
+        var cardGr = new GlideRecord(this.CONST.tables.card);
+        if (!cardGr.get(cardSysId)) {
+            return null;
+        }
+        
+        var cardPayload = {
+            type: "AdaptiveCard",
+            version: cardGr.getValue('schema_version'),
+            body: this.loadCardElements(cardSysId)
+        };
+        
+        return cardPayload;
+    },
+
+    loadCardElements: function(cardSysId, parentSysId) {
+        var elements = [];
+        var elementGr = new GlideRecord(this.CONST.tables.element);
+        elementGr.addQuery('card', cardSysId);
+        elementGr.addQuery('parent', parentSysId || '');
+        elementGr.orderBy('order');
+        elementGr.query();
+        
+        while (elementGr.next()) {
+            var element = {
+                type: elementGr.getValue('type')
+            };
+
+            // Convert name-value pairs back to object properties
+            var nameValuePairs = elementGr.attributes.getDisplayValue();
+            var pairs = nameValuePairs.split(',');
+            for (var i = 0; i < pairs.length; i++) {
+                var pair = pairs[i].split('=');
+                if (pair.length === 2) {
+                    element[pair[0]] = JSON.parse(pair[1]);
+                }
+            }
+
+            if (this.hasChildElements(cardSysId, elementGr.getUniqueValue())) {
+                element.items = this.loadCardElements(cardSysId, elementGr.getUniqueValue());
+            }
+            elements.push(element);
+        }
+        
+        return elements;
+    },
+
+    hasChildElements: function(cardSysId, parentSysId) {
+        var elementGr = new GlideRecord(this.CONST.tables.element);
+        elementGr.addQuery('card', cardSysId);
+        elementGr.addQuery('parent', parentSysId);
+        elementGr.setLimit(1);
+        elementGr.query();
+        return elementGr.hasNext();
+    },
+
+    type: 'AdaptiveCardGeneratorUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-30 18:23:51</sys_created_on>
+        <sys_id>02e0aba693c30210b5d0f0aefaba1047</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>AdaptiveCardGeneratorUtils</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_script_include_02e0aba693c30210b5d0f0aefaba1047</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-01 22:55:18</sys_updated_on>
+    </sys_script_include>
+</record_update>

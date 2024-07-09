@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="adaptive-card-workspace Search Profile">9bf81f37f103021036f1f0914a9b4547</profile>
+        <search_source display_value="Adaptive Card Template Section">6909df3793030210b5d0f0aefaba102c</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-04 15:01:27</sys_created_on>
+        <sys_id>2509df3793030210b5d0f0aefaba102f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>adaptive-card-workspace Search Profile.Adaptive Card Template Section</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_2509df3793030210b5d0f0aefaba102f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-04 15:01:27</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

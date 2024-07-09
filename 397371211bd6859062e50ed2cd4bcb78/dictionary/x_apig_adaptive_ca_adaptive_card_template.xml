@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="068f3cc71b7d0e50c16ddb9ebd4bcb1c" extends="x_apig_adaptive_ca_adaptive_card" label="Adaptive Card Template" max_length="40" name="x_apig_adaptive_ca_adaptive_card_template" text_index="true" type="collection"/>
+</database>

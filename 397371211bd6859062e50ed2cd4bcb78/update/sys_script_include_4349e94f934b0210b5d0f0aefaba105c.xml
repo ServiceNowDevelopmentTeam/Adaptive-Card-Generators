@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_apig_adaptive_ca.AdaptiveCardAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AdaptiveCardAjax</name>
+        <script><![CDATA[var AdaptiveCardAjax = Class.create();
+AdaptiveCardAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    saveCard: function() {
+        var cardName = this.getParameter('sysparm_card_name');
+        var cardData = JSON.parse(this.getParameter('sysparm_card_data'));
+        
+        var utils = new AdaptiveCardGeneratorUtils();
+        var cardSysId = utils.saveCard(cardName, cardData);
+        
+        return JSON.stringify({
+            status: 'success',
+            sys_id: cardSysId
+        });
+    },
+    
+    loadCard: function() {
+        var cardSysId = this.getParameter('sysparm_sys_id');
+        
+        var utils = new AdaptiveCardGeneratorUtils();
+        var cardData = utils.loadCard(cardSysId);
+        
+        if (cardData) {
+            return JSON.stringify({
+                status: 'success',
+                card: cardData
+            });
+        } else {
+            return JSON.stringify({
+                status: 'error',
+                message: 'Card not found'
+            });
+        }
+    },
+
+    type: 'AdaptiveCardAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-01 22:58:03</sys_created_on>
+        <sys_id>4349e94f934b0210b5d0f0aefaba105c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AdaptiveCardAjax</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_script_include_4349e94f934b0210b5d0f0aefaba105c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-01 22:58:18</sys_updated_on>
+    </sys_script_include>
+</record_update>

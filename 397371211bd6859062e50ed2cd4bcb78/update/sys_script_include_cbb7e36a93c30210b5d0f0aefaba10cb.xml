@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_apig_adaptive_ca.AdaptiveCardGeneratorConstants</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AdaptiveCardGeneratorConstants</name>
+        <script><![CDATA[var AdaptiveCardGeneratorConstants = Class.create();
+AdaptiveCardGeneratorConstants.prototype = {
+    initialize: function () {
+        this.tables = {
+            "card": "x_apig_adaptive_ca_adaptive_card",//An adaptive card containing elements
+            "element": "x_apig_adaptive_ca_adaptive_card_element",//Adaptive card elements that could be used in a card
+            "template": "x_apig_adaptive_ca_adaptive_card_template"//An adaptive card template that could contain elements and cards and other templates
+        };
+    },
+
+    type: 'AdaptiveCardGeneratorConstants'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-30 18:53:19</sys_created_on>
+        <sys_id>cbb7e36a93c30210b5d0f0aefaba10cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AdaptiveCardGeneratorConstants</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_script_include_cbb7e36a93c30210b5d0f0aefaba10cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-30 18:54:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_apig_adaptive_ca_adaptive_card_workspace_search_profile_default_spell_check_dictionary">d5099f3793030210b5d0f0aefaba1098</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="adaptive-card-workspace Search Profile">9bf81f37f103021036f1f0914a9b4547</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-04 15:01:26</sys_created_on>
+        <sys_id>99099f3793030210b5d0f0aefaba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_apig_adaptive_ca_adaptive_card_workspace_search_profile_default_spell_check_dictionary.adaptive-card-workspace Search Profile</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_99099f3793030210b5d0f0aefaba109b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-04 15:01:26</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

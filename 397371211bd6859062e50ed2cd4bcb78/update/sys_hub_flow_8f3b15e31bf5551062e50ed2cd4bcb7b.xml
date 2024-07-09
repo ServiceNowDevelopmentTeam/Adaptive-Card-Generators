@@ -5,11 +5,15 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>generate_adaptive_card_ritm_details</internal_name>
         <label_cache>[{"name":"3f1df1b5-720a-4077-8d80-5cf798c78f7d.item.name","label":"2➛Variable Record➛Var Name or Item Number","reference":"","reference_display":"Var Name or Item Number","type":"string","base_type":"string","parent_table_name":"item_option_new","column_name":"name"},{"name":"subflow.ritm.sys_id","label":"Input➛RITM➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id"},{"name":"67fbc799-14f3-4f6a-adb4-551adb24be67.value","label":"3➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"1b1d0464-9a07-4995-abad-4f801d65fbda"}},{"name":"67fbc799-14f3-4f6a-adb4-551adb24be67.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"86378912-91bf-426b-9c8a-2fbdd312b39c"}},{"name":"67fbc799-14f3-4f6a-adb4-551adb24be67.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd2956a5812db45d067f836f1fd1847bd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e540815b-d836-4144-977a-25880ae204fd"}},{"name":"subflow.ritm.cat_item","label":"Input➛RITM➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item"},{"name":"ed8ee585-a261-4226-ba89-36a977a1ae5f.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed8ee585-a261-4226-ba89-36a977a1ae5f.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed8ee585-a261-4226-ba89-36a977a1ae5f.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed8ee585-a261-4226-ba89-36a977a1ae5f.Table","label":"1➛Variable Table","reference":"item_option_new","reference_display":"Variable","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed8ee585-a261-4226-ba89-36a977a1ae5f.Records","label":"1➛Variable Records","reference":"item_option_new","reference_display":"Variable","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f1df1b5-720a-4077-8d80-5cf798c78f7d.item","label":"2➛Variable Record","reference":"item_option_new","reference_display":"Variable","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
         <master_snapshot>a2b025af1bf5551062e50ed2cd4bcb5e</master_snapshot>
@@ -24,6 +28,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-09-13 19:21:26</sys_created_on>
@@ -37,8 +42,8 @@
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
         <sys_update_name>sys_hub_flow_8f3b15e31bf5551062e50ed2cd4bcb7b</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-10-05 19:27:05</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-25 18:19:05</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=8f3b15e31bf5551062e50ed2cd4bcb7b"/>
@@ -155,6 +160,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Generate Adaptive Card RITM Details">8f3b15e31bf5551062e50ed2cd4bcb7b</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -237,13 +243,13 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9c3f512f1bf5551062e50ed2cd4bcbf6"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Get RITM Variable Value">c6956a581bdb45d08c5143f3cc4bcb4a</action_type>
+        <action_type display_value="">c6956a581bdb45d08c5143f3cc4bcb4a</action_type>
         <action_type_parent/>
         <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Generate Adaptive Card RITM Details">8f3b15e31bf5551062e50ed2cd4bcb7b</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>3f1df1b5-720a-4077-8d80-5cf798c78f7d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -257,31 +263,6 @@
         <ui_id>67fbc799-14f3-4f6a-adb4-551adb24be67</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aeef916f1bf5551062e50ed2cd4bcb59"/>
-    <sys_element_mapping action="delete_multiple" query="id=aeef916f1bf5551062e50ed2cd4bcb59"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ritm_document_id</field>
-        <id>aeef916f1bf5551062e50ed2cd4bcb59</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 19:41:53</sys_created_on>
-        <sys_id>26ef916f1bf5551062e50ed2cd4bcb5b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 19:41:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c6956a581bdb45d08c5143f3cc4bcb4a</table>
-        <value>{{subflow.ritm.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>variable_name</field>
-        <id>aeef916f1bf5551062e50ed2cd4bcb59</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 19:41:53</sys_created_on>
-        <sys_id>e6ef916f1bf5551062e50ed2cd4bcb5b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 19:41:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c6956a581bdb45d08c5143f3cc4bcb4a</table>
-        <value>{{3f1df1b5-720a-4077-8d80-5cf798c78f7d.item.name}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=aeef916f1bf5551062e50ed2cd4bcb59"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=aeef916f1bf5551062e50ed2cd4bcb59"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8f3b15e31bf5551062e50ed2cd4bcb7b"/>
@@ -298,6 +279,7 @@
         <flow display_value="Generate Adaptive Card RITM Details">8f3b15e31bf5551062e50ed2cd4bcb7b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -368,11 +350,13 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>generate_adaptive_card_ritm_details</internal_name>
         <label_cache>[{"name":"3f1df1b5-720a-4077-8d80-5cf798c78f7d.item.name","label":"2➛Variable Record➛Var Name or Item Number","reference":"","reference_display":"Var Name or Item Number","type":"string","base_type":"string","parent_table_name":"item_option_new","column_name":"name"},{"name":"subflow.ritm.sys_id","label":"Input➛RITM➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id"},{"name":"67fbc799-14f3-4f6a-adb4-551adb24be67.value","label":"3➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"1b1d0464-9a07-4995-abad-4f801d65fbda"}},{"name":"67fbc799-14f3-4f6a-adb4-551adb24be67.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"86378912-91bf-426b-9c8a-2fbdd312b39c"}},{"name":"67fbc799-14f3-4f6a-adb4-551adb24be67.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd2956a5812db45d067f836f1fd1847bd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e540815b-d836-4144-977a-25880ae204fd"}},{"name":"subflow.ritm.cat_item","label":"Input➛RITM➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item"},{"name":"ed8ee585-a261-4226-ba89-36a977a1ae5f.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed8ee585-a261-4226-ba89-36a977a1ae5f.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed8ee585-a261-4226-ba89-36a977a1ae5f.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed8ee585-a261-4226-ba89-36a977a1ae5f.Table","label":"1➛Variable Table","reference":"item_option_new","reference_display":"Variable","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed8ee585-a261-4226-ba89-36a977a1ae5f.Records","label":"1➛Variable Records","reference":"item_option_new","reference_display":"Variable","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f1df1b5-720a-4077-8d80-5cf798c78f7d.item","label":"2➛Variable Record","reference":"item_option_new","reference_display":"Variable","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
         <master>true</master>
@@ -509,13 +493,13 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=a2b025af1bf5551062e50ed2cd4bcb5e^sys_idNOT IN36b025af1bf5551062e50ed2cd4bcbe9,7eb025af1bf5551062e50ed2cd4bcbde"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Get RITM Variable Value">c6956a581bdb45d08c5143f3cc4bcb4a</action_type>
-        <action_type_parent display_value="Get RITM Variable Value">ae2562181bdb45d08c5143f3cc4bcba6</action_type_parent>
+        <action_type display_value="">c6956a581bdb45d08c5143f3cc4bcb4a</action_type>
+        <action_type_parent display_value="">ae2562181bdb45d08c5143f3cc4bcba6</action_type_parent>
         <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Generate Adaptive Card RITM Details">a2b025af1bf5551062e50ed2cd4bcb5e</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>3f1df1b5-720a-4077-8d80-5cf798c78f7d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -529,31 +513,6 @@
         <ui_id>67fbc799-14f3-4f6a-adb4-551adb24be67</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=36b025af1bf5551062e50ed2cd4bcbe9"/>
-    <sys_element_mapping action="delete_multiple" query="id=36b025af1bf5551062e50ed2cd4bcbe9"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ritm_document_id</field>
-        <id>36b025af1bf5551062e50ed2cd4bcbe9</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 19:45:27</sys_created_on>
-        <sys_id>f2b025af1bf5551062e50ed2cd4bcbea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 19:45:27</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c6956a581bdb45d08c5143f3cc4bcb4a</table>
-        <value>{{subflow.ritm.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>variable_name</field>
-        <id>36b025af1bf5551062e50ed2cd4bcbe9</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 19:45:27</sys_created_on>
-        <sys_id>b6b025af1bf5551062e50ed2cd4bcbea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 19:45:27</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c6956a581bdb45d08c5143f3cc4bcb4a</table>
-        <value>{{3f1df1b5-720a-4077-8d80-5cf798c78f7d.item.name}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=36b025af1bf5551062e50ed2cd4bcbe9"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=36b025af1bf5551062e50ed2cd4bcbe9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -565,6 +524,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Generate Adaptive Card RITM Details">a2b025af1bf5551062e50ed2cd4bcb5e</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -659,6 +619,7 @@
         <flow display_value="Generate Adaptive Card RITM Details">a2b025af1bf5551062e50ed2cd4bcb5e</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>

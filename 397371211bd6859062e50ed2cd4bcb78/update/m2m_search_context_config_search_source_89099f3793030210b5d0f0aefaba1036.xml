@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="Adaptive Card Workspace - Workspace Search">1ff81f37bc030210a495165611f6713e</search_context_config>
+        <source display_value="Adaptive Card Workspace - x_apig_adaptive_ca_adapt">c9099f3793030210b5d0f0aefaba1021</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-04 15:01:25</sys_created_on>
+        <sys_id>89099f3793030210b5d0f0aefaba1036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_89099f3793030210b5d0f0aefaba1036</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-04 15:01:25</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

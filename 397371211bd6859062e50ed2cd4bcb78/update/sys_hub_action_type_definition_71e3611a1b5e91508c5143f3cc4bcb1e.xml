@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>add_field_to_adaptive_card_field_array</internal_name>
         <label_cache>[{"name":"{{action.field_array}}","label":"action➛Field Array","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.field_array.Field}}","label":"action➛Field Array➛Field","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{}},{"name":"{{action.field}}","label":"action➛Field","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{}},{"name":"{{action.field.Is_Mandatory}}","label":"action➛Field➛Is Mandatory","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.field_array.Field.Is_Mandatory}}","label":"action➛Field Array➛Field➛Is Mandatory","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray}}","label":"step➛Script step➛fieldArray","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray.Field}}","label":"step➛Script step➛fieldArray➛Field","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray.Field.Is_Mandatory}}","label":"step➛Script step➛fieldArray➛Field➛Is Mandatory","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
@@ -34,8 +37,8 @@
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_71e3611a1b5e91508c5143f3cc4bcb1e</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-10-05 19:26:43</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-25 18:18:50</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -209,6 +212,7 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_eaa421da1b5e91508c5143f3cc4bcb56^id=eaa421da1b5e91508c5143f3cc4bcb56"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=eaa421da1b5e91508c5143f3cc4bcb56"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=eaa421da1b5e91508c5143f3cc4bcb56"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=eaa421da1b5e91508c5143f3cc4bcb56^sys_idNOT IN26a421da1b5e91508c5143f3cc4bcb6f,6aa421da1b5e91508c5143f3cc4bcb6b"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -390,12 +394,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>62a421da1b5e91508c5143f3cc4bcb72</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FDaea421da775e9150ba9d8b9bfa01ff71</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_62a421da1b5e91508c5143f3cc4bcb72</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_collection</type>
@@ -522,12 +526,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e714ad1a1b5e91508c5143f3cc4bcba3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD2714ad1acf5e915041113c3e29df08a3</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_e714ad1a1b5e91508c5143f3cc4bcba3</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_collection</type>
@@ -629,12 +633,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eb14215a1b5e91508c5143f3cc4bcbbc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD2b14215a785e915050be87e85c20e8bc</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_eb14215a1b5e91508c5143f3cc4bcbbc</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_schema</type>
@@ -737,12 +741,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e2a421da1b5e91508c5143f3cc4bcbd8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD22a421da7a5e9150a5caf2b2f156b1d8</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_e2a421da1b5e91508c5143f3cc4bcbd8</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_schema</type>
@@ -934,12 +938,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7d7629521b9e91508c5143f3cc4bcb9e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FDb9762952cb9e9150da798314cebc749e</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_7d7629521b9e91508c5143f3cc4bcb9e</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_collection</type>
@@ -1184,11 +1188,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>add_field_to_adaptive_card_field_array</internal_name>
         <label_cache>[{"name":"{{action.field_array}}","label":"action➛Field Array","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.field_array.Field}}","label":"action➛Field Array➛Field","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{}},{"name":"{{action.field}}","label":"action➛Field","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{}},{"name":"{{action.field.Is_Mandatory}}","label":"action➛Field➛Is Mandatory","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.field_array.Field.Is_Mandatory}}","label":"action➛Field Array➛Field➛Is Mandatory","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray}}","label":"step➛Script step➛fieldArray","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray.Field}}","label":"step➛Script step➛fieldArray➛Field","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[98c538df-4b5c-4a9d-b738-26e63cc40a1c].fieldarray.Field.Is_Mandatory}}","label":"step➛Script step➛fieldArray➛Field➛Is Mandatory","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
@@ -1371,6 +1378,7 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8b1665121b9e91508c5143f3cc4bcb11^id=8b1665121b9e91508c5143f3cc4bcb11"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8b1665121b9e91508c5143f3cc4bcb11"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b1665121b9e91508c5143f3cc4bcb11"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=8b1665121b9e91508c5143f3cc4bcb11^sys_idNOT IN071665121b9e91508c5143f3cc4bcb15,0b1665121b9e91508c5143f3cc4bcb19"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1552,12 +1560,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>871665121b9e91508c5143f3cc4bcb1d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FDc3166512c09e9150281fcb3d497d241d</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_871665121b9e91508c5143f3cc4bcb1d</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_collection</type>
@@ -1684,12 +1692,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f61625121b9e91508c5143f3cc4bcbdd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD36162512a89e9150fdbf1600125cb6dd</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_f61625121b9e91508c5143f3cc4bcbdd</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_collection</type>
@@ -1791,12 +1799,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fa1625121b9e91508c5143f3cc4bcbdf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD3a162512689e9150760317e2936747df</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_fa1625121b9e91508c5143f3cc4bcbdf</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_schema</type>
@@ -1986,12 +1994,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>431665121b9e91508c5143f3cc4bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD8f166512079e91502396ad0ac753ea43</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_431665121b9e91508c5143f3cc4bcb44</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_schema</type>
@@ -2096,12 +2104,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a3a625921b9e91508c5143f3cc4bcb9c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FDefa62592469e915006d2098450738a9b</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_a3a625921b9e91508c5143f3cc4bcb9c</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_collection</type>

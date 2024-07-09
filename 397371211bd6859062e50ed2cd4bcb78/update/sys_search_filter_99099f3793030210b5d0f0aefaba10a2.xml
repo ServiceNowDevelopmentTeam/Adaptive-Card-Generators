@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Adaptive Card">d1099f3793030210b5d0f0aefaba1093</ais_search_source>
+        <label>Adaptive Card</label>
+        <name>Adaptive Card</name>
+        <order>100</order>
+        <search_context_config display_value="Adaptive Card Workspace AI Search Configuration">93f81f3777030210662ef12d0aab333f</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-04 15:01:26</sys_created_on>
+        <sys_id>99099f3793030210b5d0f0aefaba10a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adaptive Card</sys_name>
+        <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
+        <sys_update_name>sys_search_filter_99099f3793030210b5d0f0aefaba10a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-04 15:01:26</sys_updated_on>
+    </sys_search_filter>
+</record_update>

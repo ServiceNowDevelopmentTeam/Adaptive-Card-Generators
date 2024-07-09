@@ -5,11 +5,15 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>83d5a2391b31991062e50ed2cd4bcbdb</copied_from>
         <copied_from_name>Generate Adaptive Card With Form</copied_from_name>
         <description>Generates an adaptive card with fields and a response that hits a scripted REST API.</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>generate_adaptive_card_action_array_string</internal_name>
         <label_cache>[{"name":"1375e1b3-f11b-4384-b2f0-15e054b86421.commaseparatedlist","label":"8 - Add String to Character Delimited List➛Comma Separated List","reference_display":"Comma Separated List","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f2fa593f-c81e-4c05-9101-a832cc8ea36f"}},{"name":"1375e1b3-f11b-4384-b2f0-15e054b86421.__dont_treat_as_error__","label":"8 - Add String to Character Delimited List➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d754a850-bd71-4a5b-9708-9338e05594f8"}},{"name":"1375e1b3-f11b-4384-b2f0-15e054b86421.__action_status__","label":"8 - Add String to Character Delimited List➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDa18d889e8c51dd10e2509430e3045507","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af60b6ad-31b8-4b1e-86e3-02ff396cc991"}},{"name":"5da30aca-6690-4ba6-8797-a0da9fedb560.output_json","label":"19 - Dynamic Flow➛Action Array String","reference_display":"Action Array String","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"498fab48-0816-4ef5-9005-4c6ad0f0d54f"}},{"name":"5da30aca-6690-4ba6-8797-a0da9fedb560.context","label":"19 - Dynamic Flow➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"subflow.rest_request_body","label":"Input➛REST Request Body","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1197a01b-c4ce-49c8-8b84-03d30c6ea6fc","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"8aa9056a-fa25-4129-8a3a-93d64e1f67bc.commaseparatedlist","label":"16 - Add String to Character Delimited List➛Comma Separated List","reference_display":"Comma Separated List","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f2fa593f-c81e-4c05-9101-a832cc8ea36f"}},{"name":"8aa9056a-fa25-4129-8a3a-93d64e1f67bc.__dont_treat_as_error__","label":"16 - Add String to Character Delimited List➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d754a850-bd71-4a5b-9708-9338e05594f8"}},{"name":"8aa9056a-fa25-4129-8a3a-93d64e1f67bc.__action_status__","label":"16 - Add String to Character Delimited List➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDa18d889e8c51dd10e2509430e3045507","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af60b6ad-31b8-4b1e-86e3-02ff396cc991"}},{"name":"d576e35e-3e50-4c8a-8616-e752f285c899.kvpstring","label":"15 - Convert delimited list to key value pair string➛kvpString","reference_display":"kvpString","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"e4f98000-02a8-496b-a424-498fd5c92068"}},{"name":"d576e35e-3e50-4c8a-8616-e752f285c899.__dont_treat_as_error__","label":"15 - Convert delimited list to key value pair string➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"a30bd88a-2c26-4032-8f05-ea4860d74cde"}},{"name":"d576e35e-3e50-4c8a-8616-e752f285c899.__action_status__","label":"15 - Convert delimited list to key value pair string➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD1c229823463d1510748c2fffe77c092e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"7be8b008-bfe9-4c88-a5c1-226bfa4b8a91"}},{"name":"subflow.rest_api_headers","label":"Input➛REST API Body","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD970689da3f39515025143feb9a786f78","child_label":"Header","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Header","child_uiUniqueId":"0488b92b-2f6d-4b6e-be1d-9d6f0d2820b5","uiUniqueId":"f91275ab-cc94-460b-adc4-5b5679857577","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Type","label":"1➛Action➛Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","choices":[{"label":"Open URL","value":"Action.OpenUrl","order":1.0},{"label":"HTTP Post","value":"Action.Http","order":2.0},{"label":"Show Card","value":"Action.ShowCard","order":3.0},{"label":"HTTP Post2","value":"ActionHttp","order":4.0}],"attributes":{"uiUniqueId":"441e5fef-8e50-4af8-9d16-641494fc434e","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"44fd2593-1a76-4616-a5d1-9d775466f71e.output_json","label":"13➛Action Array String","reference_display":"Action Array String","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"498fab48-0816-4ef5-9005-4c6ad0f0d54f"}},{"name":"2c723ae7-3ef6-4858-a81e-6f0ed02076b0.output_field_names","label":"14 - Dynamic Flow➛Field Names","reference_display":"Field Names","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"33ba84fd-24a0-4795-af8c-d9547efe74d6"}},{"name":"2c723ae7-3ef6-4858-a81e-6f0ed02076b0.output_fields","label":"14 - Dynamic Flow➛Fields","reference_display":"Fields","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"28ee254e-8c35-496b-b072-3432472098ee"}},{"name":"e96c2023-6724-484a-8105-ec3aeb65978d.item","label":"11➛Field","reference_display":"Field","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Target_HTTP_Post_or_URL_","label":"1➛Action➛Target(HTTP Post or URL)","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"116f3112-ab62-45f1-ad57-8844ec3ddb94","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.current_action","label":"Flow Variables➛Current Action","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9342f65c-0a9c-44fd-8726-cc4f7e4484e7"}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Name","label":"1 - For Each➛Action➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"3e8c6f50-4596-434b-ad25-2236c7bfcac6","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.type","label":"1➛Action➛Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","attributes":{"uiUniqueId":"b30fb344-408b-4beb-90d4-19ea19f6258a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"448d7c11-ca6a-44d1-8966-eda61a84d2df.commaseparatedlist","label":"6➛Comma Separated List","reference_display":"Comma Separated List","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"f2fa593f-c81e-4c05-9101-a832cc8ea36f"}},{"name":"448d7c11-ca6a-44d1-8966-eda61a84d2df.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d754a850-bd71-4a5b-9708-9338e05594f8"}},{"name":"448d7c11-ca6a-44d1-8966-eda61a84d2df.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDa18d889e8c51dd10e2509430e3045507","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af60b6ad-31b8-4b1e-86e3-02ff396cc991"}},{"name":"95f2d0a0-74d4-4e21-abf4-0823670d0c1a.item.Value","label":"12➛Choice➛Value","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"8ca1d932-881e-4055-9509-a4aa0db10a09","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"95f2d0a0-74d4-4e21-abf4-0823670d0c1a.item.Title","label":"12➛Choice➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"bc4b2609-c555-40e0-aa58-8e4a8e33c639","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item.Choice_Set_Choices","label":"3➛Field➛Choice Set Choices Or Facts","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiUniqueId":"9100bfe1-6c6e-45e7-8d1b-fe6664eab097","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"95f2d0a0-74d4-4e21-abf4-0823670d0c1a.item","label":"12➛Choice","reference_display":"Choice","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item.Text_Block_Text","label":"3➛Field➛Text Block Text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"da926146-a216-4e1f-8047-453f2e702349","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"9f0e6238-654f-4816-8fdf-7584487ec2e7.property_value","label":"1➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d7029dba-bde6-4a06-814f-092b7f5fe49b"}},{"name":"9f0e6238-654f-4816-8fdf-7584487ec2e7.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDbeddde61cc16c5905427e8d0aeac0ca8","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9f0e6238-654f-4816-8fdf-7584487ec2e7.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.recipient_user_record.email","label":"Input➛Recipient User Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"subflow.recipient_user_record.first_name","label":"Input➛Recipient User Record➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item","label":"3➛Field","reference_display":"Field","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"flow_variable.adaptive_card","label":"Flow Variables➛Adaptive Card","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a28fcc06-41f4-488b-bb40-391a92054e24"}},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item.Field_Type","label":"3➛Field➛Field Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","attributes":{"uiUniqueId":"c60a1c5b-a3d8-4a99-87b7-5c76dfdb01b3","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item.Field_Name_No_Spaces_","label":"3➛Field➛Field Name(No Spaces)","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"2ec6bb9a-6bef-4b30-83b5-1a536b024537","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item.Is_Text_Input_Multiline","label":"3➛Field➛Is Text Input Multiline","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"ab9a5605-6ce3-4ae5-9ef1-84207121f1e5","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.fields","label":"Input➛Fields","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD5f4b62bded319910937d7aee078ff53c","child_label":"Field","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Field","child_uiUniqueId":"5ecc7208-ecb9-42c8-9b10-a9ebeee039a7","uiUniqueId":"c50ba59a-edaf-4fc4-9b20-fd95721d8bc5","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"b60395ec-aeda-4f43-94cd-75f49f72bf16.context","label":"2➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"b60395ec-aeda-4f43-94cd-75f49f72bf16.output_fields","label":"2➛Fields","reference_display":"Fields","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"28ee254e-8c35-496b-b072-3432472098ee"}},{"name":"65ce8a64-3d1a-4ce8-9d76-78c26a7a8a73.context","label":"21 - Dynamic Flow➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item","label":"1 - For Each➛Action","reference_display":"Action","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"65ce8a64-3d1a-4ce8-9d76-78c26a7a8a73.output_fields","label":"21 - Dynamic Flow➛Fields","reference_display":"Fields","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"28ee254e-8c35-496b-b072-3432472098ee"}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Fields_Action_Card_","label":"1➛Action➛Fields(Action Card)","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiUniqueId":"eb46d925-4634-417b-9d33-7dc2c241f082","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.action_section","label":"Flow Variables➛Action Section","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"38a86811-8c28-4835-8d2d-cf52274bf8ec"}},{"name":"c3d53719-dbe3-488e-b81d-db53bd978c1c.__action_status__","label":"23 - Add String to Character Delimited List➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDa18d889e8c51dd10e2509430e3045507","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af60b6ad-31b8-4b1e-86e3-02ff396cc991"}},{"name":"c3d53719-dbe3-488e-b81d-db53bd978c1c.__dont_treat_as_error__","label":"23 - Add String to Character Delimited List➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d754a850-bd71-4a5b-9708-9338e05594f8"}},{"name":"c3d53719-dbe3-488e-b81d-db53bd978c1c.commaseparatedlist","label":"23 - Add String to Character Delimited List➛Comma Separated List","reference_display":"Comma Separated List","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f2fa593f-c81e-4c05-9101-a832cc8ea36f"}},{"name":"b60395ec-aeda-4f43-94cd-75f49f72bf16.output_field_names","label":"2➛Field Names","reference_display":"Field Names","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"33ba84fd-24a0-4795-af8c-d9547efe74d6"}},{"name":"65ce8a64-3d1a-4ce8-9d76-78c26a7a8a73.output_field_names","label":"21 - Dynamic Flow➛Field Names","reference_display":"Field Names","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"33ba84fd-24a0-4795-af8c-d9547efe74d6"}},{"name":"2c723ae7-3ef6-4858-a81e-6f0ed02076b0.context","label":"14 - Dynamic Flow➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"44fd2593-1a76-4616-a5d1-9d775466f71e.context","label":"13➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Actions_Action_Card_","label":"1➛Action➛Actions(Action Card)","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiUniqueId":"cd7bf1f3-0ef0-48b8-a2ff-3e51eee45905","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.recipient_user_record","label":"Input➛Recipient User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3b685b4b-d8c3-4e8b-b759-d166190f387c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"17366d7e-ae08-40f7-919f-ef9102976296.__action_status__","label":"17 - Add String to Character Delimited List➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDa18d889e8c51dd10e2509430e3045507","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af60b6ad-31b8-4b1e-86e3-02ff396cc991"}},{"name":"17366d7e-ae08-40f7-919f-ef9102976296.__dont_treat_as_error__","label":"17 - Add String to Character Delimited List➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d754a850-bd71-4a5b-9708-9338e05594f8"}},{"name":"17366d7e-ae08-40f7-919f-ef9102976296.commaseparatedlist","label":"17 - Add String to Character Delimited List➛Comma Separated List","reference_display":"Comma Separated List","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f2fa593f-c81e-4c05-9101-a832cc8ea36f"}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Actions_Action_Card","label":"1➛Action➛Actions(Action Card)","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiUniqueId":"5806f297-7f27-46fa-b087-f2d44ee87f7b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.potential_actions","label":"Input➛Actions","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD970689dafe3951508979a6e23c63e276","child_label":"Action","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Action","child_uiUniqueId":"b11554ec-757a-4eb9-806c-4a0359b0978c","uiUniqueId":"841a505d-10aa-42df-b496-91d8a5be3f5d","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master_snapshot>62984d921b7951508c5143f3cc4bcb62</master_snapshot>
@@ -24,6 +28,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-09-09 20:36:29</sys_created_on>
@@ -37,8 +42,8 @@
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
         <sys_update_name>sys_hub_flow_130689da1b3951508c5143f3cc4bcb46</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-05-24 16:27:10</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-25 18:18:55</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=130689da1b3951508c5143f3cc4bcb46"/>
@@ -73,12 +78,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b0689da1b3951508c5143f3cc4bcb76</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD970689dafe3951508979a6e23c63e276</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_5b0689da1b3951508c5143f3cc4bcb76</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_collection</type>
@@ -424,13 +429,13 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=130689da1b3951508c5143f3cc4bcb46^sys_idNOT IN720cd82f1b7d151062e50ed2cd4bcbcf,aacb5ceb1b7d151062e50ed2cd4bcb1b,ac34a4671bfd151062e50ed2cd4bcb1a,c145242b1bfd151062e50ed2cd4bcb6c,c416c9da1b3951508c5143f3cc4bcb9d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add String to Character Delimited List">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
+        <action_type display_value="">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
         <action_type_parent/>
         <attributes/>
         <comment>Add to JSON Body</comment>
         <display_text/>
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
+        <generation_source/>
         <order>16</order>
         <parent_ui_id>77d7036a-8067-4e91-bdb2-5aeeebc8fbe0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -444,31 +449,6 @@
         <ui_id>8aa9056a-fa25-4129-8a3a-93d64e1f67bc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=720cd82f1b7d151062e50ed2cd4bcbcf"/>
-    <sys_element_mapping action="delete_multiple" query="id=720cd82f1b7d151062e50ed2cd4bcbcf"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>comma_separated_list</field>
-        <id>720cd82f1b7d151062e50ed2cd4bcbcf</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 14:45:21</sys_created_on>
-        <sys_id>ba0cd82f1b7d151062e50ed2cd4bcbd0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 14:45:21</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{subflow.rest_request_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>string_to_add</field>
-        <id>720cd82f1b7d151062e50ed2cd4bcbcf</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 14:45:21</sys_created_on>
-        <sys_id>720cd82f1b7d151062e50ed2cd4bcbd1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 14:45:21</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{d576e35e-3e50-4c8a-8616-e752f285c899.kvpstring}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=720cd82f1b7d151062e50ed2cd4bcbcf"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=720cd82f1b7d151062e50ed2cd4bcbcf"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -480,6 +460,7 @@
         <comment>Build JSON</comment>
         <display_text/>
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
+        <generation_source/>
         <order>15</order>
         <parent_ui_id>77d7036a-8067-4e91-bdb2-5aeeebc8fbe0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -510,13 +491,13 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=aacb5ceb1b7d151062e50ed2cd4bcb1b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add String to Character Delimited List">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
+        <action_type display_value="">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
         <action_type_parent/>
         <attributes/>
         <comment>Set action to card name</comment>
         <display_text/>
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
+        <generation_source/>
         <order>17</order>
         <parent_ui_id>77d7036a-8067-4e91-bdb2-5aeeebc8fbe0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -542,44 +523,19 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 17:01:46</sys_updated_on>
         <value/>
-        <variable display_value="String to Add">9d8d489e1b51dd108c5143f3cc4bcbd3</variable>
+        <variable display_value="">9d8d489e1b51dd108c5143f3cc4bcbd3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=ac34a4671bfd151062e50ed2cd4bcb1a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>comma_separated_list</field>
-        <id>ac34a4671bfd151062e50ed2cd4bcb1a</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 15:20:58</sys_created_on>
-        <sys_id>e434a4671bfd151062e50ed2cd4bcb1c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 15:20:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{8aa9056a-fa25-4129-8a3a-93d64e1f67bc.commaseparatedlist}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>string_to_add</field>
-        <id>ac34a4671bfd151062e50ed2cd4bcb1a</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 15:20:58</sys_created_on>
-        <sys_id>a834a4671bfd151062e50ed2cd4bcb1c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-10-05 17:26:32</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>\"action\":\"{{fd_transform:c364e035-03a9-45fe-bce6-04275d380de1}}\"﻿</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ac34a4671bfd151062e50ed2cd4bcb1a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ac34a4671bfd151062e50ed2cd4bcb1a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add String to Character Delimited List">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
+        <action_type display_value="">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
         <action_type_parent/>
         <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>61eae1c0-f478-4b2a-8bb7-3193648513cc</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -605,44 +561,19 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 16:52:37</sys_updated_on>
         <value/>
-        <variable display_value="String to Add">9d8d489e1b51dd108c5143f3cc4bcbd3</variable>
+        <variable display_value="">9d8d489e1b51dd108c5143f3cc4bcbd3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=c145242b1bfd151062e50ed2cd4bcb6c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>comma_separated_list</field>
-        <id>c145242b1bfd151062e50ed2cd4bcb6c</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 15:25:40</sys_created_on>
-        <sys_id>d145242b1bfd151062e50ed2cd4bcb6e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 15:25:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{subflow.rest_request_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>string_to_add</field>
-        <id>c145242b1bfd151062e50ed2cd4bcb6c</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 15:25:40</sys_created_on>
-        <sys_id>9545242b1bfd151062e50ed2cd4bcb6e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-10-05 16:52:37</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>\"action\":\"﻿{{b740db07-63cf-4cef-95b3-7462a6ce124f.item.Name}}\"</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c145242b1bfd151062e50ed2cd4bcb6c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c145242b1bfd151062e50ed2cd4bcb6c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add String to Character Delimited List">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
-        <action_type_parent display_value="Add String to Character Delimited List">317c805e1b51dd108c5143f3cc4bcbed</action_type_parent>
+        <action_type display_value="">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
+        <action_type_parent display_value="">317c805e1b51dd108c5143f3cc4bcbed</action_type_parent>
         <attributes/>
         <comment>Add to action list</comment>
         <display_text/>
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
+        <generation_source/>
         <order>23</order>
         <parent_ui_id>b740db07-63cf-4cef-95b3-7462a6ce124f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -656,31 +587,6 @@
         <ui_id>c3d53719-dbe3-488e-b81d-db53bd978c1c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c416c9da1b3951508c5143f3cc4bcb9d"/>
-    <sys_element_mapping action="delete_multiple" query="id=c416c9da1b3951508c5143f3cc4bcb9d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>comma_separated_list</field>
-        <id>c416c9da1b3951508c5143f3cc4bcb9d</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-09 20:36:32</sys_created_on>
-        <sys_id>4416c9da1b3951508c5143f3cc4bcbab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-09 20:36:32</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{flow_variable.action_section}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>string_to_add</field>
-        <id>c416c9da1b3951508c5143f3cc4bcb9d</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-09 20:36:32</sys_created_on>
-        <sys_id>0816c9da1b3951508c5143f3cc4bcbab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-09 20:36:32</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{flow_variable.current_action}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c416c9da1b3951508c5143f3cc4bcb9d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c416c9da1b3951508c5143f3cc4bcb9d"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=130689da1b3951508c5143f3cc4bcb46"/>
@@ -697,6 +603,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -773,6 +680,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Dynamic Flow">5ede711653223300414eddeeff7b1256</logic_definition>
         <order>14</order>
@@ -948,6 +856,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Dynamic Flow">5ede711653223300414eddeeff7b1256</logic_definition>
         <order>21</order>
@@ -1122,6 +1031,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>25</order>
@@ -1170,6 +1080,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1245,6 +1156,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>10</order>
@@ -1281,6 +1193,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>2</order>
@@ -1330,6 +1243,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -1380,6 +1294,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>9</order>
@@ -1429,6 +1344,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>4</order>
@@ -1479,6 +1395,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>6</order>
@@ -1531,6 +1448,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>22</order>
@@ -1579,6 +1497,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>11</order>
@@ -1627,6 +1546,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -1702,6 +1622,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -1778,6 +1699,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>13</order>
@@ -1831,6 +1753,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>18</order>
@@ -1883,6 +1806,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>action_section</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>24</order>
@@ -1931,6 +1855,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">130689da1b3951508c5143f3cc4bcb46</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Dynamic Flow">5ede711653223300414eddeeff7b1256</logic_definition>
         <order>19</order>
@@ -2296,6 +2221,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>20</order>
@@ -2673,11 +2599,11 @@
         <sys_created_on>2022-09-09 20:36:29</sys_created_on>
         <sys_id>130689da1b3951508c5143f3cc4bcb6c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Header Section</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_130689da1b3951508c5143f3cc4bcb6c</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -2756,11 +2682,11 @@
         <sys_created_on>2022-09-09 20:36:29</sys_created_on>
         <sys_id>170689da1b3951508c5143f3cc4bcb60</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Field Section</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_170689da1b3951508c5143f3cc4bcb60</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -2839,11 +2765,11 @@
         <sys_created_on>2022-09-09 20:36:29</sys_created_on>
         <sys_id>1b0689da1b3951508c5143f3cc4bcb54</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Adaptive Card</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_1b0689da1b3951508c5143f3cc4bcb54</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -2922,11 +2848,11 @@
         <sys_created_on>2022-09-09 20:36:29</sys_created_on>
         <sys_id>930689da1b3951508c5143f3cc4bcb66</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Card Action Section</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_930689da1b3951508c5143f3cc4bcb66</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -3005,11 +2931,11 @@
         <sys_created_on>2022-09-09 20:36:29</sys_created_on>
         <sys_id>970689da1b3951508c5143f3cc4bcb5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Section</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_970689da1b3951508c5143f3cc4bcb5a</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -3088,11 +3014,11 @@
         <sys_created_on>2022-09-09 20:36:29</sys_created_on>
         <sys_id>d30689da1b3951508c5143f3cc4bcb4e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Current Action</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_d30689da1b3951508c5143f3cc4bcb4e</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -3125,7 +3051,7 @@
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_130689da1b3951508c5143f3cc4bcb46_potential_actions_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <url/>
@@ -3148,7 +3074,7 @@
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_130689da1b3951508c5143f3cc4bcb46_recipient_user_record_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <url/>
@@ -3171,7 +3097,7 @@
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_130689da1b3951508c5143f3cc4bcb46_rest_request_body_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <url/>
@@ -3196,7 +3122,7 @@
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_130689da1b3951508c5143f3cc4bcb46_output_json_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <url/>
@@ -3209,11 +3135,13 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Generates an adaptive card with fields and a response that hits a scripted REST API.</description>
+        <flow_priority/>
         <internal_name>generate_adaptive_card_action_array_string</internal_name>
         <label_cache>[{"name":"1375e1b3-f11b-4384-b2f0-15e054b86421.commaseparatedlist","label":"8 - Add String to Character Delimited List➛Comma Separated List","reference_display":"Comma Separated List","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f2fa593f-c81e-4c05-9101-a832cc8ea36f"}},{"name":"1375e1b3-f11b-4384-b2f0-15e054b86421.__dont_treat_as_error__","label":"8 - Add String to Character Delimited List➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d754a850-bd71-4a5b-9708-9338e05594f8"}},{"name":"1375e1b3-f11b-4384-b2f0-15e054b86421.__action_status__","label":"8 - Add String to Character Delimited List➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDa18d889e8c51dd10e2509430e3045507","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af60b6ad-31b8-4b1e-86e3-02ff396cc991"}},{"name":"5da30aca-6690-4ba6-8797-a0da9fedb560.output_json","label":"19 - Dynamic Flow➛Action Array String","reference_display":"Action Array String","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"498fab48-0816-4ef5-9005-4c6ad0f0d54f"}},{"name":"5da30aca-6690-4ba6-8797-a0da9fedb560.context","label":"19 - Dynamic Flow➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"subflow.rest_request_body","label":"Input➛REST Request Body","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1197a01b-c4ce-49c8-8b84-03d30c6ea6fc","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"8aa9056a-fa25-4129-8a3a-93d64e1f67bc.commaseparatedlist","label":"16 - Add String to Character Delimited List➛Comma Separated List","reference_display":"Comma Separated List","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f2fa593f-c81e-4c05-9101-a832cc8ea36f"}},{"name":"8aa9056a-fa25-4129-8a3a-93d64e1f67bc.__dont_treat_as_error__","label":"16 - Add String to Character Delimited List➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d754a850-bd71-4a5b-9708-9338e05594f8"}},{"name":"8aa9056a-fa25-4129-8a3a-93d64e1f67bc.__action_status__","label":"16 - Add String to Character Delimited List➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDa18d889e8c51dd10e2509430e3045507","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af60b6ad-31b8-4b1e-86e3-02ff396cc991"}},{"name":"d576e35e-3e50-4c8a-8616-e752f285c899.kvpstring","label":"15 - Convert delimited list to key value pair string➛kvpString","reference_display":"kvpString","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"e4f98000-02a8-496b-a424-498fd5c92068"}},{"name":"d576e35e-3e50-4c8a-8616-e752f285c899.__dont_treat_as_error__","label":"15 - Convert delimited list to key value pair string➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"a30bd88a-2c26-4032-8f05-ea4860d74cde"}},{"name":"d576e35e-3e50-4c8a-8616-e752f285c899.__action_status__","label":"15 - Convert delimited list to key value pair string➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD1c229823463d1510748c2fffe77c092e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"7be8b008-bfe9-4c88-a5c1-226bfa4b8a91"}},{"name":"subflow.rest_api_headers","label":"Input➛REST API Body","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD970689da3f39515025143feb9a786f78","child_label":"Header","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Header","child_uiUniqueId":"0488b92b-2f6d-4b6e-be1d-9d6f0d2820b5","uiUniqueId":"f91275ab-cc94-460b-adc4-5b5679857577","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Type","label":"1➛Action➛Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","choices":[{"label":"Open URL","value":"Action.OpenUrl","order":1.0},{"label":"HTTP Post","value":"Action.Http","order":2.0},{"label":"Show Card","value":"Action.ShowCard","order":3.0},{"label":"HTTP Post2","value":"ActionHttp","order":4.0}],"attributes":{"uiUniqueId":"441e5fef-8e50-4af8-9d16-641494fc434e","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"44fd2593-1a76-4616-a5d1-9d775466f71e.output_json","label":"13➛Action Array String","reference_display":"Action Array String","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"498fab48-0816-4ef5-9005-4c6ad0f0d54f"}},{"name":"2c723ae7-3ef6-4858-a81e-6f0ed02076b0.output_field_names","label":"14 - Dynamic Flow➛Field Names","reference_display":"Field Names","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"33ba84fd-24a0-4795-af8c-d9547efe74d6"}},{"name":"2c723ae7-3ef6-4858-a81e-6f0ed02076b0.output_fields","label":"14 - Dynamic Flow➛Fields","reference_display":"Fields","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"28ee254e-8c35-496b-b072-3432472098ee"}},{"name":"e96c2023-6724-484a-8105-ec3aeb65978d.item","label":"11➛Field","reference_display":"Field","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Target_HTTP_Post_or_URL_","label":"1➛Action➛Target(HTTP Post or URL)","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"116f3112-ab62-45f1-ad57-8844ec3ddb94","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.current_action","label":"Flow Variables➛Current Action","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9342f65c-0a9c-44fd-8726-cc4f7e4484e7"}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Name","label":"1 - For Each➛Action➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"3e8c6f50-4596-434b-ad25-2236c7bfcac6","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.type","label":"1➛Action➛Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","attributes":{"uiUniqueId":"b30fb344-408b-4beb-90d4-19ea19f6258a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"448d7c11-ca6a-44d1-8966-eda61a84d2df.commaseparatedlist","label":"6➛Comma Separated List","reference_display":"Comma Separated List","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"f2fa593f-c81e-4c05-9101-a832cc8ea36f"}},{"name":"448d7c11-ca6a-44d1-8966-eda61a84d2df.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d754a850-bd71-4a5b-9708-9338e05594f8"}},{"name":"448d7c11-ca6a-44d1-8966-eda61a84d2df.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDa18d889e8c51dd10e2509430e3045507","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af60b6ad-31b8-4b1e-86e3-02ff396cc991"}},{"name":"95f2d0a0-74d4-4e21-abf4-0823670d0c1a.item.Value","label":"12➛Choice➛Value","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"8ca1d932-881e-4055-9509-a4aa0db10a09","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"95f2d0a0-74d4-4e21-abf4-0823670d0c1a.item.Title","label":"12➛Choice➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"bc4b2609-c555-40e0-aa58-8e4a8e33c639","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item.Choice_Set_Choices","label":"3➛Field➛Choice Set Choices Or Facts","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiUniqueId":"9100bfe1-6c6e-45e7-8d1b-fe6664eab097","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"95f2d0a0-74d4-4e21-abf4-0823670d0c1a.item","label":"12➛Choice","reference_display":"Choice","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item.Text_Block_Text","label":"3➛Field➛Text Block Text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"da926146-a216-4e1f-8047-453f2e702349","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"9f0e6238-654f-4816-8fdf-7584487ec2e7.property_value","label":"1➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d7029dba-bde6-4a06-814f-092b7f5fe49b"}},{"name":"9f0e6238-654f-4816-8fdf-7584487ec2e7.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDbeddde61cc16c5905427e8d0aeac0ca8","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9f0e6238-654f-4816-8fdf-7584487ec2e7.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.recipient_user_record.email","label":"Input➛Recipient User Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"subflow.recipient_user_record.first_name","label":"Input➛Recipient User Record➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item","label":"3➛Field","reference_display":"Field","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"flow_variable.adaptive_card","label":"Flow Variables➛Adaptive Card","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a28fcc06-41f4-488b-bb40-391a92054e24"}},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item.Field_Type","label":"3➛Field➛Field Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","attributes":{"uiUniqueId":"c60a1c5b-a3d8-4a99-87b7-5c76dfdb01b3","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item.Field_Name_No_Spaces_","label":"3➛Field➛Field Name(No Spaces)","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"2ec6bb9a-6bef-4b30-83b5-1a536b024537","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"6bf7ffca-c970-46dc-86b5-4d0c6c160fa6.item.Is_Text_Input_Multiline","label":"3➛Field➛Is Text Input Multiline","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"ab9a5605-6ce3-4ae5-9ef1-84207121f1e5","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.fields","label":"Input➛Fields","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD5f4b62bded319910937d7aee078ff53c","child_label":"Field","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Field","child_uiUniqueId":"5ecc7208-ecb9-42c8-9b10-a9ebeee039a7","uiUniqueId":"c50ba59a-edaf-4fc4-9b20-fd95721d8bc5","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"b60395ec-aeda-4f43-94cd-75f49f72bf16.context","label":"2➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"b60395ec-aeda-4f43-94cd-75f49f72bf16.output_fields","label":"2➛Fields","reference_display":"Fields","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"28ee254e-8c35-496b-b072-3432472098ee"}},{"name":"65ce8a64-3d1a-4ce8-9d76-78c26a7a8a73.context","label":"21 - Dynamic Flow➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item","label":"1 - For Each➛Action","reference_display":"Action","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"65ce8a64-3d1a-4ce8-9d76-78c26a7a8a73.output_fields","label":"21 - Dynamic Flow➛Fields","reference_display":"Fields","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"28ee254e-8c35-496b-b072-3432472098ee"}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Fields_Action_Card_","label":"1➛Action➛Fields(Action Card)","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiUniqueId":"eb46d925-4634-417b-9d33-7dc2c241f082","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.action_section","label":"Flow Variables➛Action Section","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"38a86811-8c28-4835-8d2d-cf52274bf8ec"}},{"name":"c3d53719-dbe3-488e-b81d-db53bd978c1c.__action_status__","label":"23 - Add String to Character Delimited List➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDa18d889e8c51dd10e2509430e3045507","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af60b6ad-31b8-4b1e-86e3-02ff396cc991"}},{"name":"c3d53719-dbe3-488e-b81d-db53bd978c1c.__dont_treat_as_error__","label":"23 - Add String to Character Delimited List➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d754a850-bd71-4a5b-9708-9338e05594f8"}},{"name":"c3d53719-dbe3-488e-b81d-db53bd978c1c.commaseparatedlist","label":"23 - Add String to Character Delimited List➛Comma Separated List","reference_display":"Comma Separated List","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f2fa593f-c81e-4c05-9101-a832cc8ea36f"}},{"name":"b60395ec-aeda-4f43-94cd-75f49f72bf16.output_field_names","label":"2➛Field Names","reference_display":"Field Names","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"33ba84fd-24a0-4795-af8c-d9547efe74d6"}},{"name":"65ce8a64-3d1a-4ce8-9d76-78c26a7a8a73.output_field_names","label":"21 - Dynamic Flow➛Field Names","reference_display":"Field Names","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"33ba84fd-24a0-4795-af8c-d9547efe74d6"}},{"name":"2c723ae7-3ef6-4858-a81e-6f0ed02076b0.context","label":"14 - Dynamic Flow➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"44fd2593-1a76-4616-a5d1-9d775466f71e.context","label":"13➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Actions_Action_Card_","label":"1➛Action➛Actions(Action Card)","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiUniqueId":"cd7bf1f3-0ef0-48b8-a2ff-3e51eee45905","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.recipient_user_record","label":"Input➛Recipient User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3b685b4b-d8c3-4e8b-b759-d166190f387c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"17366d7e-ae08-40f7-919f-ef9102976296.__action_status__","label":"17 - Add String to Character Delimited List➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDa18d889e8c51dd10e2509430e3045507","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af60b6ad-31b8-4b1e-86e3-02ff396cc991"}},{"name":"17366d7e-ae08-40f7-919f-ef9102976296.__dont_treat_as_error__","label":"17 - Add String to Character Delimited List➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d754a850-bd71-4a5b-9708-9338e05594f8"}},{"name":"17366d7e-ae08-40f7-919f-ef9102976296.commaseparatedlist","label":"17 - Add String to Character Delimited List➛Comma Separated List","reference_display":"Comma Separated List","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f2fa593f-c81e-4c05-9101-a832cc8ea36f"}},{"name":"b740db07-63cf-4cef-95b3-7462a6ce124f.item.Actions_Action_Card","label":"1➛Action➛Actions(Action Card)","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiUniqueId":"5806f297-7f27-46fa-b087-f2d44ee87f7b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.potential_actions","label":"Input➛Actions","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD970689dafe3951508979a6e23c63e276","child_label":"Action","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"Action","child_uiUniqueId":"b11554ec-757a-4eb9-806c-4a0359b0978c","uiUniqueId":"841a505d-10aa-42df-b496-91d8a5be3f5d","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master>true</master>
@@ -3275,12 +3203,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e6984d921b7951508c5143f3cc4bcb64</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD26984d922279515099a19d105b91b964</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_complex_object_e6984d921b7951508c5143f3cc4bcb64</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 18:13:02</sys_updated_on>
         <type>complex_object_collection</type>
@@ -3626,13 +3554,13 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=62984d921b7951508c5143f3cc4bcb62^sys_idNOT IN0345a82b1bfd151062e50ed2cd4bcb5d,0345a82b1bfd151062e50ed2cd4bcb82,071d14ef1b7d151062e50ed2cd4bcb8e,17988d921b7951508c5143f3cc4bcbb1,931d14ef1b7d151062e50ed2cd4bcb98"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add String to Character Delimited List">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
-        <action_type_parent display_value="Add String to Character Delimited List">317c805e1b51dd108c5143f3cc4bcbed</action_type_parent>
+        <action_type display_value="">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
+        <action_type_parent display_value="">317c805e1b51dd108c5143f3cc4bcbed</action_type_parent>
         <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>61eae1c0-f478-4b2a-8bb7-3193648513cc</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3658,44 +3586,19 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 16:52:45</sys_updated_on>
         <value/>
-        <variable display_value="String to Add">9d8d489e1b51dd108c5143f3cc4bcbd3</variable>
+        <variable display_value="">9d8d489e1b51dd108c5143f3cc4bcbd3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=0345a82b1bfd151062e50ed2cd4bcb5d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>comma_separated_list</field>
-        <id>0345a82b1bfd151062e50ed2cd4bcb5d</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 15:25:47</sys_created_on>
-        <sys_id>4b45a82b1bfd151062e50ed2cd4bcb5e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 15:25:47</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{subflow.rest_request_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>string_to_add</field>
-        <id>0345a82b1bfd151062e50ed2cd4bcb5d</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 15:25:47</sys_created_on>
-        <sys_id>0f45a82b1bfd151062e50ed2cd4bcb5e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-10-05 16:52:45</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>\"action\":\"﻿{{b740db07-63cf-4cef-95b3-7462a6ce124f.item.Name}}\"</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=0345a82b1bfd151062e50ed2cd4bcb5d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0345a82b1bfd151062e50ed2cd4bcb5d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add String to Character Delimited List">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
-        <action_type_parent display_value="Add String to Character Delimited List">317c805e1b51dd108c5143f3cc4bcbed</action_type_parent>
+        <action_type display_value="">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
+        <action_type_parent display_value="">317c805e1b51dd108c5143f3cc4bcbed</action_type_parent>
         <attributes/>
         <comment>Set action to card name</comment>
         <display_text/>
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
+        <generation_source/>
         <order>17</order>
         <parent_ui_id>77d7036a-8067-4e91-bdb2-5aeeebc8fbe0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3721,33 +3624,8 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-05 17:01:53</sys_updated_on>
         <value/>
-        <variable display_value="String to Add">9d8d489e1b51dd108c5143f3cc4bcbd3</variable>
+        <variable display_value="">9d8d489e1b51dd108c5143f3cc4bcbd3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=0345a82b1bfd151062e50ed2cd4bcb82"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>comma_separated_list</field>
-        <id>0345a82b1bfd151062e50ed2cd4bcb82</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 15:25:47</sys_created_on>
-        <sys_id>4345a82b1bfd151062e50ed2cd4bcb83</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 15:25:47</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{8aa9056a-fa25-4129-8a3a-93d64e1f67bc.commaseparatedlist}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>string_to_add</field>
-        <id>0345a82b1bfd151062e50ed2cd4bcb82</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 15:25:47</sys_created_on>
-        <sys_id>0745a82b1bfd151062e50ed2cd4bcb83</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-10-05 17:26:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>\"action\":\"{{fd_transform:c364e035-03a9-45fe-bce6-04275d380de1}}\"﻿</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=0345a82b1bfd151062e50ed2cd4bcb82"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0345a82b1bfd151062e50ed2cd4bcb82"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -3759,6 +3637,7 @@
         <comment>Build JSON</comment>
         <display_text/>
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
+        <generation_source/>
         <order>15</order>
         <parent_ui_id>77d7036a-8067-4e91-bdb2-5aeeebc8fbe0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3789,13 +3668,13 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=071d14ef1b7d151062e50ed2cd4bcb8e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add String to Character Delimited List">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
-        <action_type_parent display_value="Add String to Character Delimited List">317c805e1b51dd108c5143f3cc4bcbed</action_type_parent>
+        <action_type display_value="">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
+        <action_type_parent display_value="">317c805e1b51dd108c5143f3cc4bcbed</action_type_parent>
         <attributes/>
         <comment>Add to action list</comment>
         <display_text/>
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
+        <generation_source/>
         <order>23</order>
         <parent_ui_id>b740db07-63cf-4cef-95b3-7462a6ce124f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3809,42 +3688,17 @@
         <ui_id>c3d53719-dbe3-488e-b81d-db53bd978c1c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=17988d921b7951508c5143f3cc4bcbb1"/>
-    <sys_element_mapping action="delete_multiple" query="id=17988d921b7951508c5143f3cc4bcbb1"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>comma_separated_list</field>
-        <id>17988d921b7951508c5143f3cc4bcbb1</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-09 20:47:41</sys_created_on>
-        <sys_id>5f988d921b7951508c5143f3cc4bcbb2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-09 20:47:41</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{flow_variable.action_section}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>string_to_add</field>
-        <id>17988d921b7951508c5143f3cc4bcbb1</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-09 20:47:41</sys_created_on>
-        <sys_id>13988d921b7951508c5143f3cc4bcbb3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-09 20:47:41</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{flow_variable.current_action}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=17988d921b7951508c5143f3cc4bcbb1"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=17988d921b7951508c5143f3cc4bcbb1"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add String to Character Delimited List">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
-        <action_type_parent display_value="Add String to Character Delimited List">317c805e1b51dd108c5143f3cc4bcbed</action_type_parent>
+        <action_type display_value="">9d8d489e1b51dd108c5143f3cc4bcbc7</action_type>
+        <action_type_parent display_value="">317c805e1b51dd108c5143f3cc4bcbed</action_type_parent>
         <attributes/>
         <comment>Add to JSON Body</comment>
         <display_text/>
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
+        <generation_source/>
         <order>16</order>
         <parent_ui_id>77d7036a-8067-4e91-bdb2-5aeeebc8fbe0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3858,31 +3712,6 @@
         <ui_id>8aa9056a-fa25-4129-8a3a-93d64e1f67bc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=931d14ef1b7d151062e50ed2cd4bcb98"/>
-    <sys_element_mapping action="delete_multiple" query="id=931d14ef1b7d151062e50ed2cd4bcb98"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>comma_separated_list</field>
-        <id>931d14ef1b7d151062e50ed2cd4bcb98</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 14:50:02</sys_created_on>
-        <sys_id>d71d14ef1b7d151062e50ed2cd4bcb99</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 14:50:02</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{subflow.rest_request_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>string_to_add</field>
-        <id>931d14ef1b7d151062e50ed2cd4bcb98</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-09-13 14:50:02</sys_created_on>
-        <sys_id>9b1d14ef1b7d151062e50ed2cd4bcb99</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-13 14:50:02</sys_updated_on>
-        <table>var__m_sys_hub_action_input_9d8d489e1b51dd108c5143f3cc4bcbc7</table>
-        <value>{{d576e35e-3e50-4c8a-8616-e752f285c899.kvpstring}}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=931d14ef1b7d151062e50ed2cd4bcb98"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=931d14ef1b7d151062e50ed2cd4bcb98"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=62984d921b7951508c5143f3cc4bcb62"/>
@@ -3900,6 +3729,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>4</order>
@@ -3950,6 +3780,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>6</order>
@@ -4002,6 +3833,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Dynamic Flow">5ede711653223300414eddeeff7b1256</logic_definition>
         <order>14</order>
@@ -4176,6 +4008,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>10</order>
@@ -4211,6 +4044,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -4260,6 +4094,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -4335,6 +4170,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -4411,6 +4247,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>action_section</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>24</order>
@@ -4458,6 +4295,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>25</order>
@@ -4507,6 +4345,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>11</order>
@@ -4556,6 +4395,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>22</order>
@@ -4604,6 +4444,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Dynamic Flow">5ede711653223300414eddeeff7b1256</logic_definition>
         <order>19</order>
@@ -4968,6 +4809,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -5044,6 +4886,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>20</order>
@@ -5096,6 +4939,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>18</order>
@@ -5148,6 +4992,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>9</order>
@@ -5197,6 +5042,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>13</order>
@@ -5250,6 +5096,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Dynamic Flow">5ede711653223300414eddeeff7b1256</logic_definition>
         <order>21</order>
@@ -5424,6 +5271,7 @@
         <flow display_value="Generate Adaptive Card Action Array String">62984d921b7951508c5143f3cc4bcb62</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -5500,6 +5348,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>current_action</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>2</order>
@@ -5875,11 +5724,11 @@
         <sys_created_on>2022-09-09 20:47:39</sys_created_on>
         <sys_id>3a984d921b7951508c5143f3cc4bcbf8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Section</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_3a984d921b7951508c5143f3cc4bcbf8</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -5958,11 +5807,11 @@
         <sys_created_on>2022-09-09 20:47:39</sys_created_on>
         <sys_id>3e984d921b7951508c5143f3cc4bcbec</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Adaptive Card</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_3e984d921b7951508c5143f3cc4bcbec</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -6041,11 +5890,11 @@
         <sys_created_on>2022-09-09 20:47:39</sys_created_on>
         <sys_id>b6984d921b7951508c5143f3cc4bcbfe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Current Action</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_b6984d921b7951508c5143f3cc4bcbfe</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -6124,11 +5973,11 @@
         <sys_created_on>2022-09-09 20:47:39</sys_created_on>
         <sys_id>ba984d921b7951508c5143f3cc4bcbf2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Card Action Section</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_ba984d921b7951508c5143f3cc4bcbf2</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -6207,11 +6056,11 @@
         <sys_created_on>2022-09-09 20:47:39</sys_created_on>
         <sys_id>be984d921b7951508c5143f3cc4bcbd3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Header Section</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_be984d921b7951508c5143f3cc4bcbd3</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -6290,11 +6139,11 @@
         <sys_created_on>2022-09-09 20:47:39</sys_created_on>
         <sys_id>be984d921b7951508c5143f3cc4bcbe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Field Section</sys_name>
+        <sys_name/>
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_be984d921b7951508c5143f3cc4bcbe6</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <table_reference>false</table_reference>
@@ -6327,7 +6176,7 @@
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_62984d921b7951508c5143f3cc4bcb62_potential_actions_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <url/>
@@ -6350,7 +6199,7 @@
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_62984d921b7951508c5143f3cc4bcb62_rest_request_body_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <url/>
@@ -6373,7 +6222,7 @@
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_62984d921b7951508c5143f3cc4bcb62_recipient_user_record_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <url/>
@@ -6398,7 +6247,7 @@
         <sys_package display_value="Adaptive Card Generators" source="x_apig_adaptive_ca">397371211bd6859062e50ed2cd4bcb78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Card Generators">397371211bd6859062e50ed2cd4bcb78</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_62984d921b7951508c5143f3cc4bcb62_output_json_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 16:56:29</sys_updated_on>
         <url/>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5cffb40b1b7d0e50c16ddb9ebd4bcb1e" label="Adaptive Card Element" max_length="40" name="x_apig_adaptive_ca_adaptive_card_element" text_index="true" type="collection">
+        <element label="Value" max_length="1000" name="value" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="1" label="Section Column" max_length="40" name="column" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent Section" max_length="40" name="section" reference="x_apig_adaptive_ca_adaptive_card_template_section" reference_qual="parentSAMEASparent^EQ" reference_qual_condition="parentSAMEASparent^EQ" type="reference"/>
+        <element label="Attributes" max_length="4000" name="attributes" type="simple_name_values"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="List" sequence="0" value="FactSet"/>
+                <element inactive_on_update="false" label="Image" sequence="0" value="Image"/>
+                <element inactive_on_update="false" label="Text" sequence="0" value="TextBlock"/>
+                <element inactive_on_update="false" label="Text Input" sequence="0" value="Input.Text"/>
+                <element inactive_on_update="false" label="Choice Set" sequence="0" value="Input.ChoiceSet"/>
+                <element inactive_on_update="false" label="Section" sequence="0" value="Container"/>
+                <element inactive_on_update="false" label="Action Set" sequence="0" value="ActionSet"/>
+                <element inactive_on_update="false" label="Action" sequence="0" value="Action"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent Card" max_length="32" name="parent" reference="x_apig_adaptive_ca_adaptive_card" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" default="100" label="Order" max_length="40" name="order" type="integer"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="section"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

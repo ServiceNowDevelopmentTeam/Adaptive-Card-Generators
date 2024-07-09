@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>parent</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2024-04-30 22:32:27</sys_updated_on>
         <table>x_apig_adaptive_ca_adaptive_card_template_section</table>
         <ui_policy display_value="Card not empty section empty">17d09a031bb9ce5062e50ed2cd4bcb73</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=3ce052431bb9ce5062e50ed2cd4bcbd5"/>
 </record_update>
