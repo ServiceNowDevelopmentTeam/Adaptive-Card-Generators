@@ -1,72 +1,12 @@
-trigger:
-- master
+# azure-pipelines.yml (in each repo)
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: APi Connect Continuous Improvementame/pipeline-templates  # Replace with the actual name of your template repository
 
-pool:
-  vmImage: 'ubuntu-latest'
-
-variables:
-- group: 'AAD-and-GitHub-Secrets'
-- name: repoName
-  value: $(Build.Repository.Name)
-- name: branchName
-  value: $(Build.SourceBranchName)
-- name: azureDevOpsRepoUrl
-  value: $(Build.Repository.Uri)
-- name: githubUser
-  value: $(USER)
-- name: githubToken
-  value: $(TOKEN)
-- name: azureDevOpsPAT
-  value: $(AZURE_DEVOPS_PAT)
-
-steps:
-- script: |
-    echo "Cloning the repository from Azure DevOps..."
-    # Strip 'https://' from the URL using sed
-    cleanedUrl=$(echo $(azureDevOpsRepoUrl) | sed 's/^https:\/\/APi-IT-Community\@dev.azure.com//')
-    echo "Using cleaned URL: https://$(azureDevOpsPAT)@dev.azure.com$cleanedUrl"
-    git clone https://$(azureDevOpsPAT)@dev.azure.com$cleanedUrl repo
-  displayName: 'Clone repository from Azure DevOps'
-
-- script: |
-    cd repo
-    echo "Setting the remote origin to GitHub..."
-    git remote set-url origin https://$(githubUser):$(githubToken)@github.com/ServiceNowDevelopmentTeam/$(repoName).git
-    git remote -v # Verify the remote URL
-
-    echo "Checking if repository exists on GitHub..."
-    repoExists=$(curl -s -o /dev/null -w "%{http_code}" -u $(githubUser):$(githubToken) https://api.github.com/repos/ServiceNowDevelopmentTeam/$(repoName))
-    if [ $repoExists -eq 404 ]; then
-      echo "Repository does not exist on GitHub. Creating..."
-      curl -u $(githubUser):$(githubToken) https://api.github.com/orgs/ServiceNowDevelopmentTeam/repos -d "{\"name\":\"$(repoName)\"}"
-    fi
-
-    echo "Checking if branch exists on GitHub $(branchName)..."
-    branchExists=$(git ls-remote --heads origin $(branchName))
-    if [ -z "$branchExists" ]; then
-      echo "Branch does not exist on GitHub. Creating..."
-      git checkout -b $(branchName)
-      git push origin $(branchName)
-    else
-      git checkout $(branchName)
-    fi
-
-    echo "Pushing changes to GitHub $(branchName)..."
-    for i in {1..5}; do
-      git push origin $(branchName) && break || sleep 15
-    done
-
-    echo "Setting the default branch to $(branchName) on GitHub..."
-    curl -X PATCH -u $(githubUser):$(githubToken) https://api.github.com/repos/ServiceNowDevelopmentTeam/$(repoName) -d "{\"default_branch\":\"$(branchName)\"}"
-
-    if [ "$(branchName)" != "main" ]; then
-      echo "Checking if 'main' branch exists on GitHub..."
-      mainBranchExists=$(git ls-remote --heads origin main)
-      if [ -n "$mainBranchExists" ]; then
-        echo "'main' branch exists. Deleting 'main' branch on GitHub..."
-        git push origin --delete main
-      else
-        echo "'main' branch does not exist on GitHub. Nothing to delete."
-      fi
-    fi
-  displayName: 'Set default branch and manage main branch on GitHub'
+extends:
+  template: github-cloning-pipelines-template.yml@templates
+  parameters:
+    repoName: $(Build.Repository.Name)
+    branchName: $(Build.SourceBranchName)
