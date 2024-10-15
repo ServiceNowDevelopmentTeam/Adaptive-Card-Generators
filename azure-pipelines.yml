@@ -3,7 +3,7 @@ resources:
   repositories:
     - repository: templates
       type: git
-      name: APi Connect Continuous Improvementame/pipeline-templates  # Replace with the actual name of your template repository
+      name: APi Connect Continuous Improvement/pipeline-templates  # Replace with the actual name of your template repository
 
 extends:
   template: github-cloning-pipelines-template.yml@templates
